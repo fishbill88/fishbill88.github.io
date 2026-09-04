@@ -173,3 +173,22 @@ footer a:hover { color: var(--ink); }
   color: var(--muted);
   cursor: default;
 }
+
+/* Real screenshots. The .shot placeholder rules above stay for any slot that is
+   still empty; these take over once a figure holds an actual image. */
+.shots figure { margin: 0; }
+.shots figure img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+}
+.shots figcaption {
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin-top: 0.55rem;
+}

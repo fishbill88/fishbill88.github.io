@@ -1,3 +1,7 @@
 # Local working files. Not part of the published site.
 NOTES.md
 fill-email.sh
+
+# The 3.4 MB launcher master. The site serves the WebP; keeping the PNG local
+# avoids putting a large unused blob in a public repo.
+shots/controlpanel.png
