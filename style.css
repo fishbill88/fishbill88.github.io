@@ -180,8 +180,13 @@ footer a:hover { color: var(--ink); }
 .shots figure img {
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
+  /* height:auto is load-bearing. The width/height attributes on the <img> are
+     presentational hints, so without this the attribute height wins, the box
+     stops honouring any ratio, and the image renders as a cropped slice.
+     No aspect-ratio and no object-fit either: these captures are all ~1.71-1.80,
+     and cropping them to a fixed ratio would clip the bottom edge — which is
+     where the taskbar strip is, and the strip is the whole point. */
+  height: auto;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--panel);
