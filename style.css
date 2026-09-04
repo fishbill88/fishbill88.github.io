@@ -197,3 +197,8 @@ footer a:hover { color: var(--ink); }
   line-height: 1.5;
   margin-top: 0.55rem;
 }
+
+/* Click a screenshot for the full-size file — at grid width the panel text is
+   unreadable, and press expects the original. */
+.shots figure a { display: block; }
+.shots figure a:hover img { border-color: var(--accent); }
