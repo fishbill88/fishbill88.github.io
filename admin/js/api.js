@@ -13,15 +13,34 @@ const store = {
   set(s, k, v) { try { v == null ? s.removeItem(k) : s.setItem(k, v); } catch { /* private mode */ } },
 };
 
-/// ?api=<url> overrides the server and is remembered; ?api=default forgets it.
+/// ?api=<url> points the page at a LOCAL dev server and is remembered;
+/// ?api=default forgets it.
+///
+/// Loopback only (security review, 3 Oct 2026). This page is the one origin the
+/// game API's CORS allowlist trusts, and the sign-in form posts the real admin
+/// password to BASE — so a link such as ?api=https://attacker/x would make the
+/// genuine page, on its genuine certificate, hand that password to a stranger,
+/// and remember to keep doing so. A dev override has exactly one honest use,
+/// an API running on this machine, and that is the only thing it may name now.
+/// Anything else, including a value an older build already stored, is dropped.
+function isLocalApi(v) {
+  try {
+    const u = new URL(v);
+    return /^https?:$/.test(u.protocol)
+        && /^(localhost|127\.0\.0\.1|\[::1\])$/i.test(u.hostname);
+  } catch { return false; }
+}
 function pickBase() {
   const q = new URLSearchParams(location.search).get('api');
   if (q != null) {
     const v = q.trim().replace(/\/+$/, '');
     if (!v || v === 'default' || v === PROD) store.set(localStorage, API_KEY, null);
-    else if (/^https?:\/\//i.test(v)) store.set(localStorage, API_KEY, v);
+    else if (isLocalApi(v)) store.set(localStorage, API_KEY, v);
+    else console.warn('[admin] ignoring ?api= — only a localhost API may be named here');
   }
-  return (store.get(localStorage, API_KEY) || PROD).replace(/\/+$/, '');
+  const stored = store.get(localStorage, API_KEY);
+  if (stored && !isLocalApi(stored)) store.set(localStorage, API_KEY, null);
+  return ((stored && isLocalApi(stored)) ? stored : PROD).replace(/\/+$/, '');
 }
 
 export const BASE = pickBase();
