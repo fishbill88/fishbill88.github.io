@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<title>TTF Admin</title>
+<link rel="icon" href="../favicon.ico" sizes="any">
+<link rel="stylesheet" href="admin.css">
+<script type="module" src="js/main.js"></script>
+</head>
+<body>
+
+<div id="signin" class="signin" hidden>
+  <form id="signinForm" class="signin-box" autocomplete="off">
+    <div class="brand">Task<span>Top</span>Fight <small>admin</small></div>
+    <label class="fld">
+      <span class="fl">Admin password</span>
+      <input id="pw" type="password" autocomplete="current-password" required autofocus>
+    </label>
+    <button class="b primary" type="submit" id="signinBtn">Sign in</button>
+    <div id="signinMsg" class="alert bad" hidden></div>
+    <p class="muted small" id="apiNote"></p>
+  </form>
+</div>
+
+<div id="app" hidden>
+  <header class="top">
+    <div class="top-in">
+      <a class="brand" href="#overview">Task<span>Top</span>Fight <small>admin</small></a>
+      <span id="apiBadge" class="badge warn" hidden></span>
+      <span class="grow"></span>
+      <button class="b ghost" type="button" id="reloadBtn" title="Reload this tab">Reload</button>
+      <button class="b ghost" type="button" id="signoutBtn">Sign out</button>
+    </div>
+    <nav class="tabs" id="tabs" aria-label="Sections"></nav>
+  </header>
+  <div id="flash" class="flash" hidden role="status"></div>
+  <main id="view" class="view"></main>
+</div>
+
+<noscript><p style="padding:2rem;color:#e6edf5;background:#0d1014">The admin needs JavaScript.</p></noscript>
+</body>
+</html>
