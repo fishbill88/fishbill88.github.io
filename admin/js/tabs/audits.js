@@ -1,11 +1,11 @@
-// Two read-only sweeps over every stored save. Run on demand: each reads every
+// Three read-only sweeps over every stored save. Run on demand: each reads every
 // payload. Nothing is stored or acted on — a finding is a question to ask.
 
 import { get } from '../api.js';
 import { h, card, table, td, n, badge, act, note, clear, errorBox, when } from '../ui.js';
 
 export async function render(root) {
-  root.append(petCard(), spawnCard());
+  root.append(petCard(), spawnCard(), progressCard());
 }
 
 function petCard() {
@@ -68,5 +68,35 @@ function spawnCard() {
       h('strong', null, 'Shorter has one cause'), ' — the spawn timer ran faster than the clock it was timed against.'),
     note(badge('red', 'bad'), ' fired sooner than 55 seconds apart — the margin is for a device clock resyncing, not for the game. ',
       badge('amber', 'warn'), ' has no beacon to read but is clearly playing. Plain rows are keeping time. The rate and ceiling columns are the older check, kept as context. Even a red row is a question to go and ask, not a verdict.'),
+    h('div', null, run), out);
+}
+
+// Century four (DESIGN-v23): things no game client of any version can make.
+function progressCard() {
+  const out = h('div');
+  const head = h('span');
+  const run = act('Audit every save', async () => {
+    clear(out).append(h('div', { class: 'muted' }, 'Reading every save…'));
+    try {
+      const { rows } = await get('/audit/progress');
+      const bad = rows.filter((r) => r.status === 'findings');
+      const skipped = rows.filter((r) => r.status === 'skipped');
+      const clean = rows.length - bad.length - skipped.length;
+      clear(head).append(badge(bad.length ? `${bad.length} impossible` : 'all possible', bad.length ? 'bad' : 'ok'));
+      clear(out).append(
+        h('p', { class: 'small' }, h('strong', null, clean), ' clean · ', h('strong', { class: bad.length ? 'badt' : '' }, bad.length), ' with findings · ', h('strong', null, skipped.length), ' not audited'),
+        bad.length ? table(['Player', 'Rev', 'Findings'], bad.map((r) => h('tr', null,
+          td(r.username, 'nowrap'),
+          td([n(r.rev), r.updatedUtc ? h('div', null, when(r.updatedUtc)) : null], 'small muted nowrap'),
+          td(h('ul', { style: { margin: 0, paddingLeft: '1.1rem' } }, r.findings.map((f) => h('li', null, f))), 'small')))) : null,
+        skipped.length ? h('details', { class: 'small' }, h('summary', null, `${skipped.length} not audited — why`),
+          h('ul', { class: 'muted' }, skipped.map((r) => h('li', null, `${r.username} — ${r.reason}`)))) : null);
+    } catch (e) { clear(out).append(errorBox(e)); }
+  }, 'primary');
+  return card('Progress audit', head,
+    note('Things the game cannot make, in any version: an item above ', h('strong', null, 'item level 400'),
+      ', a class set piece above ', h('strong', null, '300'), ' (the sets stop there while everything else climbs), a stage past ',
+      h('strong', null, '400'), ', and ', h('strong', null, 'Summit points'), ' over 25 on a track or more than the player has earned — one point per stage cleared from 301.'),
+    note('It does not compare gear to the player’s stage: mail, the shop and the stall all hand out gear at any stage, and that rule would name honest players. Nothing here is stored or acted on. “Not audited” is not the same as clean.'),
     h('div', null, run), out);
 }
