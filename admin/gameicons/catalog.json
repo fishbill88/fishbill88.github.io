@@ -13176,7 +13176,7 @@
     "rarity": "normal",
     "name": "Mythic Enchantment Stone",
     "className": null,
-    "description": "Mythic Enchantment Stone. Pays for one forge attempt on Mythic-band gear (item level 240–300) — one stone per attempt, landed or not. They go straight onto your forge counter, not into your bag, so a letter of them can be collected with a full backpack.",
+    "description": "Mythic Enchantment Stone. Pays for one forge attempt on Mythic-band gear (item level 240–400) — one stone per attempt, landed or not. They go straight onto your forge counter, not into your bag, so a letter of them can be collected with a full backpack.",
     "file": "consumable-mythicstone-none-t0-normal.png"
   },
   {
@@ -23338,6 +23338,3226 @@
     "className": null,
     "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
     "file": "back-lanternpack-none-t40-magic.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 80,
+    "rarity": "rare",
+    "name": "Royal Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t8-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 90,
+    "rarity": "rare",
+    "name": "Rune Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t9-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 100,
+    "rarity": "rare",
+    "name": "Legend Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t10-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 110,
+    "rarity": "rare",
+    "name": "Fate Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t11-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 120,
+    "rarity": "rare",
+    "name": "Hero's Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t12-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 130,
+    "rarity": "rare",
+    "name": "Ember Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t13-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 140,
+    "rarity": "rare",
+    "name": "Storm Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t14-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 150,
+    "rarity": "rare",
+    "name": "Tempest Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t15-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 160,
+    "rarity": "rare",
+    "name": "Vengeance Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t16-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 170,
+    "rarity": "rare",
+    "name": "Obsidian Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t17-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 180,
+    "rarity": "rare",
+    "name": "Void Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t18-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 190,
+    "rarity": "rare",
+    "name": "Crystal Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t19-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 200,
+    "rarity": "rare",
+    "name": "Prism Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t20-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 210,
+    "rarity": "rare",
+    "name": "Dimensional Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t21-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 220,
+    "rarity": "rare",
+    "name": "Phantom Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t22-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 230,
+    "rarity": "rare",
+    "name": "Shadow Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t23-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 240,
+    "rarity": "rare",
+    "name": "Wraith Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t24-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 250,
+    "rarity": "rare",
+    "name": "Eclipse Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t25-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 260,
+    "rarity": "rare",
+    "name": "Astral Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t26-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 270,
+    "rarity": "rare",
+    "name": "Celestial Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t27-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 280,
+    "rarity": "rare",
+    "name": "Eternal Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t28-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 290,
+    "rarity": "rare",
+    "name": "Divine Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t29-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 300,
+    "rarity": "rare",
+    "name": "Radiant Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t30-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 310,
+    "rarity": "rare",
+    "name": "Ashen Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t31-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 320,
+    "rarity": "rare",
+    "name": "Primal Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t32-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 330,
+    "rarity": "rare",
+    "name": "Infernal Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t33-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 340,
+    "rarity": "rare",
+    "name": "Abyssal Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t34-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 350,
+    "rarity": "rare",
+    "name": "Titan Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t35-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 360,
+    "rarity": "rare",
+    "name": "Seraphic Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t36-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 370,
+    "rarity": "rare",
+    "name": "Dragon Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t37-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 380,
+    "rarity": "rare",
+    "name": "Oblivion Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t38-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 390,
+    "rarity": "rare",
+    "name": "Genesis Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t39-rare.png"
+  },
+  {
+    "key": "t_warlord",
+    "slot": "back",
+    "ilvl": 400,
+    "rarity": "rare",
+    "name": "Summit Horned Warbanner",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_warlord-none-t40-rare.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 160,
+    "rarity": "epic",
+    "name": "Vengeance Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t16-epic.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 170,
+    "rarity": "epic",
+    "name": "Obsidian Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t17-epic.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 180,
+    "rarity": "epic",
+    "name": "Void Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t18-epic.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 190,
+    "rarity": "epic",
+    "name": "Crystal Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t19-epic.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 200,
+    "rarity": "epic",
+    "name": "Prism Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t20-epic.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 210,
+    "rarity": "epic",
+    "name": "Dimensional Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t21-epic.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 220,
+    "rarity": "epic",
+    "name": "Phantom Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t22-epic.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 230,
+    "rarity": "epic",
+    "name": "Shadow Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t23-epic.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 240,
+    "rarity": "epic",
+    "name": "Wraith Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t24-epic.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 250,
+    "rarity": "epic",
+    "name": "Eclipse Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t25-epic.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 260,
+    "rarity": "epic",
+    "name": "Astral Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t26-epic.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 270,
+    "rarity": "epic",
+    "name": "Celestial Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t27-epic.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 280,
+    "rarity": "epic",
+    "name": "Eternal Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t28-epic.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 290,
+    "rarity": "epic",
+    "name": "Divine Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t29-epic.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 300,
+    "rarity": "epic",
+    "name": "Radiant Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t30-epic.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 310,
+    "rarity": "epic",
+    "name": "Ashen Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t31-epic.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 320,
+    "rarity": "epic",
+    "name": "Primal Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t32-epic.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 330,
+    "rarity": "epic",
+    "name": "Infernal Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t33-epic.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 340,
+    "rarity": "epic",
+    "name": "Abyssal Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t34-epic.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 350,
+    "rarity": "epic",
+    "name": "Titan Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t35-epic.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 360,
+    "rarity": "epic",
+    "name": "Seraphic Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t36-epic.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 370,
+    "rarity": "epic",
+    "name": "Dragon Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t37-epic.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 380,
+    "rarity": "epic",
+    "name": "Oblivion Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t38-epic.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 390,
+    "rarity": "epic",
+    "name": "Genesis Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t39-epic.png"
+  },
+  {
+    "key": "t_gorgon",
+    "slot": "back",
+    "ilvl": 400,
+    "rarity": "epic",
+    "name": "Summit Gorgon Veil",
+    "className": null,
+    "description": "Epic Cape. Weathered. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_gorgon-none-t40-epic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 1,
+    "rarity": "magic",
+    "name": "Worn Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t0-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 10,
+    "rarity": "magic",
+    "name": "Iron Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t1-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 20,
+    "rarity": "magic",
+    "name": "Steel Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t2-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 30,
+    "rarity": "magic",
+    "name": "Hardened Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t3-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 40,
+    "rarity": "magic",
+    "name": "Soldier's Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t4-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 50,
+    "rarity": "magic",
+    "name": "Knight's Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t5-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 60,
+    "rarity": "magic",
+    "name": "Templar Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t6-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 70,
+    "rarity": "magic",
+    "name": "Commander's Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t7-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 80,
+    "rarity": "magic",
+    "name": "Royal Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t8-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 90,
+    "rarity": "magic",
+    "name": "Rune Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t9-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 100,
+    "rarity": "magic",
+    "name": "Legend Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t10-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 110,
+    "rarity": "magic",
+    "name": "Fate Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t11-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 120,
+    "rarity": "magic",
+    "name": "Hero's Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t12-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 130,
+    "rarity": "magic",
+    "name": "Ember Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t13-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 140,
+    "rarity": "magic",
+    "name": "Storm Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t14-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 150,
+    "rarity": "magic",
+    "name": "Tempest Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t15-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 160,
+    "rarity": "magic",
+    "name": "Vengeance Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t16-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 170,
+    "rarity": "magic",
+    "name": "Obsidian Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t17-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 180,
+    "rarity": "magic",
+    "name": "Void Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t18-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 190,
+    "rarity": "magic",
+    "name": "Crystal Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t19-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 200,
+    "rarity": "magic",
+    "name": "Prism Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t20-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 210,
+    "rarity": "magic",
+    "name": "Dimensional Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t21-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 220,
+    "rarity": "magic",
+    "name": "Phantom Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t22-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 230,
+    "rarity": "magic",
+    "name": "Shadow Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t23-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 240,
+    "rarity": "magic",
+    "name": "Wraith Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t24-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 250,
+    "rarity": "magic",
+    "name": "Eclipse Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t25-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 260,
+    "rarity": "magic",
+    "name": "Astral Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t26-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 270,
+    "rarity": "magic",
+    "name": "Celestial Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t27-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 280,
+    "rarity": "magic",
+    "name": "Eternal Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t28-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 290,
+    "rarity": "magic",
+    "name": "Divine Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t29-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 300,
+    "rarity": "magic",
+    "name": "Radiant Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t30-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 310,
+    "rarity": "magic",
+    "name": "Ashen Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t31-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 320,
+    "rarity": "magic",
+    "name": "Primal Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t32-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 330,
+    "rarity": "magic",
+    "name": "Infernal Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t33-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 340,
+    "rarity": "magic",
+    "name": "Abyssal Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t34-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 350,
+    "rarity": "magic",
+    "name": "Titan Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t35-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 360,
+    "rarity": "magic",
+    "name": "Seraphic Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t36-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 370,
+    "rarity": "magic",
+    "name": "Dragon Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t37-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 380,
+    "rarity": "magic",
+    "name": "Oblivion Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t38-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 390,
+    "rarity": "magic",
+    "name": "Genesis Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t39-magic.png"
+  },
+  {
+    "key": "t_lamp",
+    "slot": "back",
+    "ilvl": 400,
+    "rarity": "magic",
+    "name": "Summit Djinn Lamp",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_lamp-none-t40-magic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 160,
+    "rarity": "epic",
+    "name": "Vengeance Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t16-epic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 170,
+    "rarity": "epic",
+    "name": "Obsidian Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t17-epic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 180,
+    "rarity": "epic",
+    "name": "Void Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t18-epic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 190,
+    "rarity": "epic",
+    "name": "Crystal Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t19-epic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 200,
+    "rarity": "epic",
+    "name": "Prism Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t20-epic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 210,
+    "rarity": "epic",
+    "name": "Dimensional Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t21-epic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 220,
+    "rarity": "epic",
+    "name": "Phantom Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t22-epic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 230,
+    "rarity": "epic",
+    "name": "Shadow Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t23-epic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 240,
+    "rarity": "epic",
+    "name": "Wraith Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t24-epic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 250,
+    "rarity": "epic",
+    "name": "Eclipse Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t25-epic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 260,
+    "rarity": "epic",
+    "name": "Astral Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t26-epic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 270,
+    "rarity": "epic",
+    "name": "Celestial Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t27-epic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 280,
+    "rarity": "epic",
+    "name": "Eternal Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t28-epic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 290,
+    "rarity": "epic",
+    "name": "Divine Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t29-epic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 300,
+    "rarity": "epic",
+    "name": "Radiant Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t30-epic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 310,
+    "rarity": "epic",
+    "name": "Ashen Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t31-epic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 320,
+    "rarity": "epic",
+    "name": "Primal Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t32-epic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 330,
+    "rarity": "epic",
+    "name": "Infernal Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t33-epic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 340,
+    "rarity": "epic",
+    "name": "Abyssal Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t34-epic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 350,
+    "rarity": "epic",
+    "name": "Titan Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t35-epic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 360,
+    "rarity": "epic",
+    "name": "Seraphic Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t36-epic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 370,
+    "rarity": "epic",
+    "name": "Dragon Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t37-epic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 380,
+    "rarity": "epic",
+    "name": "Oblivion Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t38-epic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 390,
+    "rarity": "epic",
+    "name": "Genesis Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t39-epic.png"
+  },
+  {
+    "key": "t_foxtails",
+    "slot": "back",
+    "ilvl": 400,
+    "rarity": "epic",
+    "name": "Summit Foxfire Tails",
+    "className": null,
+    "description": "Epic Cape. Counterstroke. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_foxtails-none-t40-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 160,
+    "rarity": "epic",
+    "name": "Vengeance Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t16-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 170,
+    "rarity": "epic",
+    "name": "Obsidian Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t17-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 180,
+    "rarity": "epic",
+    "name": "Void Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t18-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 190,
+    "rarity": "epic",
+    "name": "Crystal Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t19-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 200,
+    "rarity": "epic",
+    "name": "Prism Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t20-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 210,
+    "rarity": "epic",
+    "name": "Dimensional Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t21-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 220,
+    "rarity": "epic",
+    "name": "Phantom Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t22-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 230,
+    "rarity": "epic",
+    "name": "Shadow Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t23-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 240,
+    "rarity": "epic",
+    "name": "Wraith Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t24-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 250,
+    "rarity": "epic",
+    "name": "Eclipse Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t25-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 260,
+    "rarity": "epic",
+    "name": "Astral Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t26-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 270,
+    "rarity": "epic",
+    "name": "Celestial Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t27-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 280,
+    "rarity": "epic",
+    "name": "Eternal Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t28-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 290,
+    "rarity": "epic",
+    "name": "Divine Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t29-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 300,
+    "rarity": "epic",
+    "name": "Radiant Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t30-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 310,
+    "rarity": "epic",
+    "name": "Ashen Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t31-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 320,
+    "rarity": "epic",
+    "name": "Primal Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t32-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 330,
+    "rarity": "epic",
+    "name": "Infernal Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t33-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 340,
+    "rarity": "epic",
+    "name": "Abyssal Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t34-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 350,
+    "rarity": "epic",
+    "name": "Titan Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t35-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 360,
+    "rarity": "epic",
+    "name": "Seraphic Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t36-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 370,
+    "rarity": "epic",
+    "name": "Dragon Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t37-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 380,
+    "rarity": "epic",
+    "name": "Oblivion Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t38-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 390,
+    "rarity": "epic",
+    "name": "Genesis Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t39-epic.png"
+  },
+  {
+    "key": "t_bloodcape",
+    "slot": "back",
+    "ilvl": 400,
+    "rarity": "epic",
+    "name": "Summit Bloodmoon Mantle",
+    "className": null,
+    "description": "Epic Cape. Fade. Its 3 stat lines are rolled when it is sent.",
+    "file": "back-t_bloodcape-none-t40-epic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 1,
+    "rarity": "magic",
+    "name": "Worn Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t0-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 10,
+    "rarity": "magic",
+    "name": "Iron Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t1-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 20,
+    "rarity": "magic",
+    "name": "Steel Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t2-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 30,
+    "rarity": "magic",
+    "name": "Hardened Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t3-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 40,
+    "rarity": "magic",
+    "name": "Soldier's Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t4-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 50,
+    "rarity": "magic",
+    "name": "Knight's Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t5-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 60,
+    "rarity": "magic",
+    "name": "Templar Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t6-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 70,
+    "rarity": "magic",
+    "name": "Commander's Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t7-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 80,
+    "rarity": "magic",
+    "name": "Royal Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t8-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 90,
+    "rarity": "magic",
+    "name": "Rune Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t9-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 100,
+    "rarity": "magic",
+    "name": "Legend Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t10-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 110,
+    "rarity": "magic",
+    "name": "Fate Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t11-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 120,
+    "rarity": "magic",
+    "name": "Hero's Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t12-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 130,
+    "rarity": "magic",
+    "name": "Ember Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t13-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 140,
+    "rarity": "magic",
+    "name": "Storm Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t14-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 150,
+    "rarity": "magic",
+    "name": "Tempest Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t15-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 160,
+    "rarity": "magic",
+    "name": "Vengeance Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t16-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 170,
+    "rarity": "magic",
+    "name": "Obsidian Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t17-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 180,
+    "rarity": "magic",
+    "name": "Void Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t18-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 190,
+    "rarity": "magic",
+    "name": "Crystal Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t19-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 200,
+    "rarity": "magic",
+    "name": "Prism Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t20-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 210,
+    "rarity": "magic",
+    "name": "Dimensional Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t21-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 220,
+    "rarity": "magic",
+    "name": "Phantom Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t22-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 230,
+    "rarity": "magic",
+    "name": "Shadow Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t23-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 240,
+    "rarity": "magic",
+    "name": "Wraith Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t24-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 250,
+    "rarity": "magic",
+    "name": "Eclipse Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t25-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 260,
+    "rarity": "magic",
+    "name": "Astral Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t26-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 270,
+    "rarity": "magic",
+    "name": "Celestial Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t27-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 280,
+    "rarity": "magic",
+    "name": "Eternal Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t28-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 290,
+    "rarity": "magic",
+    "name": "Divine Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t29-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 300,
+    "rarity": "magic",
+    "name": "Radiant Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t30-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 310,
+    "rarity": "magic",
+    "name": "Ashen Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t31-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 320,
+    "rarity": "magic",
+    "name": "Primal Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t32-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 330,
+    "rarity": "magic",
+    "name": "Infernal Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t33-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 340,
+    "rarity": "magic",
+    "name": "Abyssal Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t34-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 350,
+    "rarity": "magic",
+    "name": "Titan Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t35-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 360,
+    "rarity": "magic",
+    "name": "Seraphic Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t36-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 370,
+    "rarity": "magic",
+    "name": "Dragon Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t37-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 380,
+    "rarity": "magic",
+    "name": "Oblivion Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t38-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 390,
+    "rarity": "magic",
+    "name": "Genesis Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t39-magic.png"
+  },
+  {
+    "key": "t_carapace",
+    "slot": "back",
+    "ilvl": 400,
+    "rarity": "magic",
+    "name": "Summit Centipede Carapace",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_carapace-none-t40-magic.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 80,
+    "rarity": "rare",
+    "name": "Royal Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t8-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 90,
+    "rarity": "rare",
+    "name": "Rune Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t9-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 100,
+    "rarity": "rare",
+    "name": "Legend Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t10-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 110,
+    "rarity": "rare",
+    "name": "Fate Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t11-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 120,
+    "rarity": "rare",
+    "name": "Hero's Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t12-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 130,
+    "rarity": "rare",
+    "name": "Ember Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t13-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 140,
+    "rarity": "rare",
+    "name": "Storm Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t14-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 150,
+    "rarity": "rare",
+    "name": "Tempest Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t15-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 160,
+    "rarity": "rare",
+    "name": "Vengeance Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t16-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 170,
+    "rarity": "rare",
+    "name": "Obsidian Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t17-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 180,
+    "rarity": "rare",
+    "name": "Void Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t18-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 190,
+    "rarity": "rare",
+    "name": "Crystal Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t19-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 200,
+    "rarity": "rare",
+    "name": "Prism Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t20-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 210,
+    "rarity": "rare",
+    "name": "Dimensional Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t21-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 220,
+    "rarity": "rare",
+    "name": "Phantom Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t22-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 230,
+    "rarity": "rare",
+    "name": "Shadow Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t23-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 240,
+    "rarity": "rare",
+    "name": "Wraith Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t24-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 250,
+    "rarity": "rare",
+    "name": "Eclipse Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t25-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 260,
+    "rarity": "rare",
+    "name": "Astral Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t26-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 270,
+    "rarity": "rare",
+    "name": "Celestial Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t27-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 280,
+    "rarity": "rare",
+    "name": "Eternal Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t28-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 290,
+    "rarity": "rare",
+    "name": "Divine Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t29-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 300,
+    "rarity": "rare",
+    "name": "Radiant Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t30-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 310,
+    "rarity": "rare",
+    "name": "Ashen Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t31-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 320,
+    "rarity": "rare",
+    "name": "Primal Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t32-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 330,
+    "rarity": "rare",
+    "name": "Infernal Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t33-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 340,
+    "rarity": "rare",
+    "name": "Abyssal Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t34-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 350,
+    "rarity": "rare",
+    "name": "Titan Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t35-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 360,
+    "rarity": "rare",
+    "name": "Seraphic Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t36-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 370,
+    "rarity": "rare",
+    "name": "Dragon Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t37-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 380,
+    "rarity": "rare",
+    "name": "Oblivion Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t38-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 390,
+    "rarity": "rare",
+    "name": "Genesis Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t39-rare.png"
+  },
+  {
+    "key": "t_gasflag",
+    "slot": "back",
+    "ilvl": 400,
+    "rarity": "rare",
+    "name": "Summit Plague Gasflag",
+    "className": null,
+    "description": "Rare Flag. Its 2 stat lines are rolled when it is sent.",
+    "file": "back-t_gasflag-none-t40-rare.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 1,
+    "rarity": "magic",
+    "name": "Worn Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t0-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 10,
+    "rarity": "magic",
+    "name": "Iron Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t1-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 20,
+    "rarity": "magic",
+    "name": "Steel Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t2-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 30,
+    "rarity": "magic",
+    "name": "Hardened Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t3-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 40,
+    "rarity": "magic",
+    "name": "Soldier's Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t4-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 50,
+    "rarity": "magic",
+    "name": "Knight's Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t5-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 60,
+    "rarity": "magic",
+    "name": "Templar Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t6-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 70,
+    "rarity": "magic",
+    "name": "Commander's Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t7-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 80,
+    "rarity": "magic",
+    "name": "Royal Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t8-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 90,
+    "rarity": "magic",
+    "name": "Rune Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t9-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 100,
+    "rarity": "magic",
+    "name": "Legend Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t10-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 110,
+    "rarity": "magic",
+    "name": "Fate Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t11-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 120,
+    "rarity": "magic",
+    "name": "Hero's Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t12-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 130,
+    "rarity": "magic",
+    "name": "Ember Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t13-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 140,
+    "rarity": "magic",
+    "name": "Storm Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t14-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 150,
+    "rarity": "magic",
+    "name": "Tempest Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t15-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 160,
+    "rarity": "magic",
+    "name": "Vengeance Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t16-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 170,
+    "rarity": "magic",
+    "name": "Obsidian Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t17-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 180,
+    "rarity": "magic",
+    "name": "Void Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t18-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 190,
+    "rarity": "magic",
+    "name": "Crystal Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t19-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 200,
+    "rarity": "magic",
+    "name": "Prism Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t20-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 210,
+    "rarity": "magic",
+    "name": "Dimensional Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t21-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 220,
+    "rarity": "magic",
+    "name": "Phantom Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t22-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 230,
+    "rarity": "magic",
+    "name": "Shadow Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t23-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 240,
+    "rarity": "magic",
+    "name": "Wraith Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t24-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 250,
+    "rarity": "magic",
+    "name": "Eclipse Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t25-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 260,
+    "rarity": "magic",
+    "name": "Astral Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t26-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 270,
+    "rarity": "magic",
+    "name": "Celestial Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t27-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 280,
+    "rarity": "magic",
+    "name": "Eternal Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t28-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 290,
+    "rarity": "magic",
+    "name": "Divine Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t29-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 300,
+    "rarity": "magic",
+    "name": "Radiant Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t30-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 310,
+    "rarity": "magic",
+    "name": "Ashen Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t31-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 320,
+    "rarity": "magic",
+    "name": "Primal Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t32-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 330,
+    "rarity": "magic",
+    "name": "Infernal Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t33-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 340,
+    "rarity": "magic",
+    "name": "Abyssal Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t34-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 350,
+    "rarity": "magic",
+    "name": "Titan Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t35-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 360,
+    "rarity": "magic",
+    "name": "Seraphic Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t36-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 370,
+    "rarity": "magic",
+    "name": "Dragon Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t37-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 380,
+    "rarity": "magic",
+    "name": "Oblivion Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t38-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 390,
+    "rarity": "magic",
+    "name": "Genesis Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t39-magic.png"
+  },
+  {
+    "key": "t_exhaust",
+    "slot": "back",
+    "ilvl": 400,
+    "rarity": "magic",
+    "name": "Summit Wagon Exhaust",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_exhaust-none-t40-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 1,
+    "rarity": "magic",
+    "name": "Worn Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t0-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 10,
+    "rarity": "magic",
+    "name": "Iron Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t1-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 20,
+    "rarity": "magic",
+    "name": "Steel Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t2-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 30,
+    "rarity": "magic",
+    "name": "Hardened Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t3-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 40,
+    "rarity": "magic",
+    "name": "Soldier's Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t4-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 50,
+    "rarity": "magic",
+    "name": "Knight's Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t5-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 60,
+    "rarity": "magic",
+    "name": "Templar Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t6-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 70,
+    "rarity": "magic",
+    "name": "Commander's Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t7-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 80,
+    "rarity": "magic",
+    "name": "Royal Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t8-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 90,
+    "rarity": "magic",
+    "name": "Rune Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t9-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 100,
+    "rarity": "magic",
+    "name": "Legend Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t10-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 110,
+    "rarity": "magic",
+    "name": "Fate Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t11-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 120,
+    "rarity": "magic",
+    "name": "Hero's Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t12-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 130,
+    "rarity": "magic",
+    "name": "Ember Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t13-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 140,
+    "rarity": "magic",
+    "name": "Storm Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t14-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 150,
+    "rarity": "magic",
+    "name": "Tempest Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t15-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 160,
+    "rarity": "magic",
+    "name": "Vengeance Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t16-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 170,
+    "rarity": "magic",
+    "name": "Obsidian Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t17-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 180,
+    "rarity": "magic",
+    "name": "Void Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t18-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 190,
+    "rarity": "magic",
+    "name": "Crystal Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t19-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 200,
+    "rarity": "magic",
+    "name": "Prism Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t20-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 210,
+    "rarity": "magic",
+    "name": "Dimensional Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t21-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 220,
+    "rarity": "magic",
+    "name": "Phantom Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t22-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 230,
+    "rarity": "magic",
+    "name": "Shadow Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t23-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 240,
+    "rarity": "magic",
+    "name": "Wraith Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t24-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 250,
+    "rarity": "magic",
+    "name": "Eclipse Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t25-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 260,
+    "rarity": "magic",
+    "name": "Astral Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t26-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 270,
+    "rarity": "magic",
+    "name": "Celestial Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t27-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 280,
+    "rarity": "magic",
+    "name": "Eternal Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t28-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 290,
+    "rarity": "magic",
+    "name": "Divine Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t29-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 300,
+    "rarity": "magic",
+    "name": "Radiant Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t30-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 310,
+    "rarity": "magic",
+    "name": "Ashen Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t31-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 320,
+    "rarity": "magic",
+    "name": "Primal Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t32-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 330,
+    "rarity": "magic",
+    "name": "Infernal Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t33-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 340,
+    "rarity": "magic",
+    "name": "Abyssal Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t34-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 350,
+    "rarity": "magic",
+    "name": "Titan Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t35-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 360,
+    "rarity": "magic",
+    "name": "Seraphic Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t36-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 370,
+    "rarity": "magic",
+    "name": "Dragon Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t37-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 380,
+    "rarity": "magic",
+    "name": "Oblivion Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t38-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 390,
+    "rarity": "magic",
+    "name": "Genesis Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t39-magic.png"
+  },
+  {
+    "key": "t_spiderpack",
+    "slot": "back",
+    "ilvl": 400,
+    "rarity": "magic",
+    "name": "Summit Spider Engine Pack",
+    "className": null,
+    "description": "Magic Bag. Its 1 stat line are rolled when it is sent.",
+    "file": "back-t_spiderpack-none-t40-magic.png"
+  },
+  {
+    "key": "t_drakewing",
+    "slot": "back",
+    "ilvl": 240,
+    "rarity": "legendary",
+    "name": "Wraith Drakewing Pinions",
+    "className": null,
+    "description": "Legendary Wings. Emberwake · Rebirth. Its 4 stat lines are rolled when it is sent.",
+    "file": "back-t_drakewing-none-t24-legendary.png"
+  },
+  {
+    "key": "t_drakewing",
+    "slot": "back",
+    "ilvl": 250,
+    "rarity": "legendary",
+    "name": "Eclipse Drakewing Pinions",
+    "className": null,
+    "description": "Legendary Wings. Emberwake · Rebirth. Its 4 stat lines are rolled when it is sent.",
+    "file": "back-t_drakewing-none-t25-legendary.png"
+  },
+  {
+    "key": "t_drakewing",
+    "slot": "back",
+    "ilvl": 260,
+    "rarity": "legendary",
+    "name": "Astral Drakewing Pinions",
+    "className": null,
+    "description": "Legendary Wings. Emberwake · Rebirth. Its 4 stat lines are rolled when it is sent.",
+    "file": "back-t_drakewing-none-t26-legendary.png"
+  },
+  {
+    "key": "t_drakewing",
+    "slot": "back",
+    "ilvl": 270,
+    "rarity": "legendary",
+    "name": "Celestial Drakewing Pinions",
+    "className": null,
+    "description": "Legendary Wings. Emberwake · Rebirth. Its 4 stat lines are rolled when it is sent.",
+    "file": "back-t_drakewing-none-t27-legendary.png"
+  },
+  {
+    "key": "t_drakewing",
+    "slot": "back",
+    "ilvl": 280,
+    "rarity": "legendary",
+    "name": "Eternal Drakewing Pinions",
+    "className": null,
+    "description": "Legendary Wings. Emberwake · Rebirth. Its 4 stat lines are rolled when it is sent.",
+    "file": "back-t_drakewing-none-t28-legendary.png"
+  },
+  {
+    "key": "t_drakewing",
+    "slot": "back",
+    "ilvl": 290,
+    "rarity": "legendary",
+    "name": "Divine Drakewing Pinions",
+    "className": null,
+    "description": "Legendary Wings. Emberwake · Rebirth. Its 4 stat lines are rolled when it is sent.",
+    "file": "back-t_drakewing-none-t29-legendary.png"
+  },
+  {
+    "key": "t_drakewing",
+    "slot": "back",
+    "ilvl": 300,
+    "rarity": "legendary",
+    "name": "Radiant Drakewing Pinions",
+    "className": null,
+    "description": "Legendary Wings. Emberwake · Rebirth. Its 4 stat lines are rolled when it is sent.",
+    "file": "back-t_drakewing-none-t30-legendary.png"
+  },
+  {
+    "key": "t_drakewing",
+    "slot": "back",
+    "ilvl": 310,
+    "rarity": "legendary",
+    "name": "Ashen Drakewing Pinions",
+    "className": null,
+    "description": "Legendary Wings. Emberwake · Rebirth. Its 4 stat lines are rolled when it is sent.",
+    "file": "back-t_drakewing-none-t31-legendary.png"
+  },
+  {
+    "key": "t_drakewing",
+    "slot": "back",
+    "ilvl": 320,
+    "rarity": "legendary",
+    "name": "Primal Drakewing Pinions",
+    "className": null,
+    "description": "Legendary Wings. Emberwake · Rebirth. Its 4 stat lines are rolled when it is sent.",
+    "file": "back-t_drakewing-none-t32-legendary.png"
+  },
+  {
+    "key": "t_drakewing",
+    "slot": "back",
+    "ilvl": 330,
+    "rarity": "legendary",
+    "name": "Infernal Drakewing Pinions",
+    "className": null,
+    "description": "Legendary Wings. Emberwake · Rebirth. Its 4 stat lines are rolled when it is sent.",
+    "file": "back-t_drakewing-none-t33-legendary.png"
+  },
+  {
+    "key": "t_drakewing",
+    "slot": "back",
+    "ilvl": 340,
+    "rarity": "legendary",
+    "name": "Abyssal Drakewing Pinions",
+    "className": null,
+    "description": "Legendary Wings. Emberwake · Rebirth. Its 4 stat lines are rolled when it is sent.",
+    "file": "back-t_drakewing-none-t34-legendary.png"
+  },
+  {
+    "key": "t_drakewing",
+    "slot": "back",
+    "ilvl": 350,
+    "rarity": "legendary",
+    "name": "Titan Drakewing Pinions",
+    "className": null,
+    "description": "Legendary Wings. Emberwake · Rebirth. Its 4 stat lines are rolled when it is sent.",
+    "file": "back-t_drakewing-none-t35-legendary.png"
+  },
+  {
+    "key": "t_drakewing",
+    "slot": "back",
+    "ilvl": 360,
+    "rarity": "legendary",
+    "name": "Seraphic Drakewing Pinions",
+    "className": null,
+    "description": "Legendary Wings. Emberwake · Rebirth. Its 4 stat lines are rolled when it is sent.",
+    "file": "back-t_drakewing-none-t36-legendary.png"
+  },
+  {
+    "key": "t_drakewing",
+    "slot": "back",
+    "ilvl": 370,
+    "rarity": "legendary",
+    "name": "Dragon Drakewing Pinions",
+    "className": null,
+    "description": "Legendary Wings. Emberwake · Rebirth. Its 4 stat lines are rolled when it is sent.",
+    "file": "back-t_drakewing-none-t37-legendary.png"
+  },
+  {
+    "key": "t_drakewing",
+    "slot": "back",
+    "ilvl": 380,
+    "rarity": "legendary",
+    "name": "Oblivion Drakewing Pinions",
+    "className": null,
+    "description": "Legendary Wings. Emberwake · Rebirth. Its 4 stat lines are rolled when it is sent.",
+    "file": "back-t_drakewing-none-t38-legendary.png"
+  },
+  {
+    "key": "t_drakewing",
+    "slot": "back",
+    "ilvl": 390,
+    "rarity": "legendary",
+    "name": "Genesis Drakewing Pinions",
+    "className": null,
+    "description": "Legendary Wings. Emberwake · Rebirth. Its 4 stat lines are rolled when it is sent.",
+    "file": "back-t_drakewing-none-t39-legendary.png"
+  },
+  {
+    "key": "t_drakewing",
+    "slot": "back",
+    "ilvl": 400,
+    "rarity": "legendary",
+    "name": "Summit Drakewing Pinions",
+    "className": null,
+    "description": "Legendary Wings. Emberwake · Rebirth. Its 4 stat lines are rolled when it is sent.",
+    "file": "back-t_drakewing-none-t40-legendary.png"
   },
   {
     "key": "goddess",
