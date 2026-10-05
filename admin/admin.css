@@ -258,3 +258,14 @@ dialog.modal::backdrop { background: rgba(0, 0, 0, 0.6); }
   .bal-row { grid-template-columns: 7rem 1fr 4.8rem auto; }
   .tile-v { font-size: 1.15rem; }
 }
+
+/* ── save history + viewer ───────────────────────────────────────────── */
+dialog.modal.xwide { width: min(88rem, calc(100vw - 24px)); }
+.dl { font-size: 0.72rem; line-height: 1.1; }
+.grid.sv { grid-template-columns: repeat(auto-fill, minmax(min(100%, 24rem), 1fr)); align-items: start; }
+.grid.sv table { font-size: 0.82rem; }
+.grid.sv .sub { overflow-x: auto; }
+.grid.sv td { overflow-wrap: anywhere; }
+.grid.sv td:first-child { white-space: nowrap; width: 1%; }
+tr.sv-chg > td { background: rgba(255, 215, 94, 0.08); }
+tr.sv-chg > td:first-child { box-shadow: inset 2px 0 0 var(--warn); }

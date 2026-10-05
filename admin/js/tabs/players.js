@@ -3,6 +3,7 @@ import {
   h, clear, card, tiles, table, td, n, playtime, badge, agoEl, when, day, act, btn, flash, modal, note,
   field, input, select, errorBox, ago,
 } from '../ui.js';
+import { rules, rarityColor } from '../catalog.js';
 
 let filterText = '';
 let sortBy = 'created';
@@ -143,34 +144,251 @@ async function openLogs(p) {
 }
 
 // ── save history ────────────────────────────────────────────────────────────
+// What a summary key says, as the table prints it. The push summary carries the
+// boards' columns; `lite` is read off the payload by the server (lifetime
+// playtime above all — the summary's elapsedSec is only the RUN clock).
+const sumOf = (r) => r.summary || {};
+const liteOf = (r) => r.lite || {};
+const HIST_COLS = [
+  // [head, value(row), only-rises?]  An only-rises value that FALLS between two
+  // saves is a rollback or an edit, and is painted red.
+  ['>Lv', (r) => sumOf(r).heroLevel ?? liteOf(r).level, true],
+  ['>Stage', (r) => sumOf(r).stage, false],
+  ['>Max', (r) => sumOf(r).maxStage ?? liteOf(r).peakStage, true],
+  ['>Gold', (r) => sumOf(r).gold, false],
+  ['>Kills', (r) => liteOf(r).lifetimeKills ?? sumOf(r).kills, true],
+  ['>Total EXP', (r) => sumOf(r).totalExp, true],
+  ['>Played', (r) => liteOf(r).playedSec, true],
+  ['>Deaths', (r) => liteOf(r).deaths, true],
+  ['>Floor S/P', null, false],
+  ['>PvP', (r) => sumOf(r).pvpRating, false],
+];
+const short = (v) => {
+  const a = Math.abs(v);
+  if (a >= 1e9) return (v / 1e9).toFixed(1) + 'B';
+  if (a >= 1e6) return (v / 1e6).toFixed(1) + 'M';
+  if (a >= 1e4) return (v / 1e3).toFixed(0) + 'k';
+  return String(Math.round(v));
+};
+function deltaEl(cur, prev, rises, fmt) {
+  if (cur == null || prev == null || !Number.isFinite(+cur) || !Number.isFinite(+prev)) return null;
+  const d = +cur - +prev;
+  if (!d) return null;
+  const bad = rises && d < 0;
+  const txt = (d > 0 ? '+' : '−') + (fmt ? fmt(Math.abs(d)) : short(Math.abs(d)));
+  return h('div', { class: `dl ${bad ? 'badt' : 'muted'}`, title: bad ? 'went DOWN — this only ever rises' : '' }, txt);
+}
+
 async function openHistory(p, ctx) {
   const m = modal(`Saves — ${p.username}`, { wide: true });
+  m.dlg.classList.add('xwide');
   const box = h('div', null, h('div', { class: 'muted' }, 'Loading…'));
   m.body.append(
-    note('Every accepted save is kept here (the newest 100 shown). Restore writes that copy back as a NEW revision; the player’s game then sees a conflict on its next push and asks which save to keep — tell them to take the CLOUD one.'),
+    note('Kept: the newest 30 saves, then one per hour for 7 days, then one per day for 90 days. The small number under a value is the change since the save below it; red means a value that only ever rises went down. ',
+      'View opens the hero that copy would load as, side by side with another copy. Restore writes that copy back as a NEW revision; the player’s game then sees a conflict on its next push and asks which save to keep — tell them to take the CLOUD one.'),
     box);
   async function load() {
     try {
       const d = await get('/player/history', { id: p.id });
       const rows = d.history || [];
-      clear(box).append(rows.length ? table(['Saved', '>Rev', 'Machine', '>Lv', '>Stage', 'Class', '>Gold', '>Size', ''], rows.map((r) => {
-        const sm = r.summary || {};
+      clear(box).append(rows.length ? table(['Saved', '>Rev', 'Machine', 'Class', ...HIST_COLS.map((c) => c[0]), '>Size', ''], rows.map((r, i) => {
+        const prev = rows[i + 1];
+        const sm = sumOf(r), lt = liteOf(r);
+        // Playtime that ran faster than the wall clock between two saves: the
+        // old dashboard save guard's test (1.5x wall, plus a minute of slack).
+        let fast = null;
+        if (prev && lt.playedSec != null && liteOf(prev).playedSec != null) {
+          const wall = (new Date(r.savedUtc) - new Date(prev.savedUtc)) / 1000;
+          const ran = lt.playedSec - liteOf(prev).playedSec;
+          if (wall >= 0 && ran > wall * 1.5 + 60) {
+            fast = badge('fast clock', 'bad', `played +${playtime(ran)} in ${wall < 60 ? 'under a minute' : playtime(wall)} of real time`);
+          }
+        }
+        const cells = HIST_COLS.map(([head, val, rises]) => {
+          if (!val) return td(`${n(sm.maxFloorSolo)} / ${n(sm.maxFloorParty)}`, 'num');
+          const v = val(r);
+          const isTime = head === '>Played';
+          return td([h('div', null, isTime ? playtime(v) : n(v)),
+            prev ? deltaEl(v, val(prev), rises, isTime ? playtime : null) : null], 'num');
+        });
         return h('tr', null,
           td(agoEl(r.savedUtc), 'nowrap'),
           td(n(r.rev), 'num'),
-          td([r.machine || '—', r.forced ? badge('forced', 'warn', 'Written by an admin restore or a forced push') : null], 'small'),
-          td(n(sm.heroLevel), 'num'), td(n(sm.stage), 'num'), td(sm.mainClass || '—'),
-          td(n(sm.gold), 'num'), td(`${((r.bytes || 0) / 1024).toFixed(1)}KB`, 'num muted'),
-          h('td', { class: 'acts' }, act('Restore', async () => {
-            if (!confirm(`Restore ${p.username}'s save to r${r.rev} from ${when(r.savedUtc)}?\n\nTheir current cloud save is replaced by this copy (it stays in the history).`)) return;
-            const res = await post('/player/restore', { id: p.id, historyId: r.id });
-            flash(`Restored as r${res.rev}. ${res.note || ''}`);
-            ctx.refresh(); load();
-          }, 'warn xs')));
+          td([r.machine || '—', r.forced ? badge('forced', 'warn', 'Written by an admin restore or a forced push') : null, fast], 'small'),
+          td(sm.mainClass || '—'),
+          ...cells,
+          td(`${((r.bytes || 0) / 1024).toFixed(1)}KB`, 'num muted'),
+          h('td', { class: 'acts' },
+            btn('View', () => openSaveView(p, rows, r.id, prev ? prev.id : null), 'xs'),
+            act('Restore', async () => {
+              if (!confirm(`Restore ${p.username}'s save to r${r.rev} from ${when(r.savedUtc)}?\n\nTheir current cloud save is replaced by this copy (it stays in the history).`)) return;
+              const res = await post('/player/restore', { id: p.id, historyId: r.id });
+              flash(`Restored as r${res.rev}. ${res.note || ''}`);
+              ctx.refresh(); load();
+            }, 'warn xs')));
       })) : h('p', { class: 'muted' }, 'No history kept for this player yet.'));
     } catch (e) { clear(box).append(errorBox(e)); }
   }
   load();
+}
+
+// ── one saved copy, decoded ─────────────────────────────────────────────────
+// The server builds the hero the game would load from that copy and sends the
+// stat sheet, gear, skills and records (api/admin/saveview.js). A second copy
+// can be picked to compare against; rows that differ are marked.
+const CUR = 'current';
+const viewCache = new Map();
+function fetchView(p, hid) {
+  const key = `${p.id}:${hid}`;
+  if (!viewCache.has(key)) {
+    const pr = get('/player/save-view', hid === CUR ? { id: p.id } : { id: p.id, historyId: hid });
+    pr.catch(() => viewCache.delete(key));
+    viewCache.set(key, pr);
+  }
+  return viewCache.get(key);
+}
+
+function openSaveView(p, rows, hid, otherId) {
+  const m = modal(`Save — ${p.username}`, { wide: true });
+  m.dlg.classList.add('xwide');
+  const label = (r) => `r${r.rev} · ${when(r.savedUtc)}${r.machine ? ' · ' + r.machine : ''}`;
+  const opts = [[CUR, 'the live cloud save'], ...rows.map((r) => [String(r.id), label(r)])];
+  const pickA = select(opts); pickA.value = String(hid);
+  const pickB = select([['', '— nothing —'], ...opts]); pickB.value = otherId != null ? String(otherId) : '';
+  const box = h('div', null, h('div', { class: 'muted' }, 'Loading…'));
+  m.body.append(h('div', { class: 'row' }, field('Showing', pickA, { cls: 'grow' }), field('Compared with', pickB, { cls: 'grow' })), box);
+
+  let seq = 0;
+  async function load() {
+    const my = ++seq;
+    clear(box).append(h('div', { class: 'muted' }, 'Loading…'));
+    try {
+      const [A, B, R] = await Promise.all([
+        fetchView(p, pickA.value),
+        pickB.value ? fetchView(p, pickB.value) : null,
+        rules().catch(() => null),
+      ]);
+      if (my !== seq) return;
+      clear(box).append(renderView(A, B, R && R.meta));
+    } catch (e) { if (my === seq) clear(box).append(errorBox(e)); }
+  }
+  pickA.addEventListener('change', load);
+  pickB.addEventListener('change', load);
+  load();
+}
+
+// A row's value: a number, a string, or { text, n?, fmt?, sub?, color?, key? }.
+// `n` makes the difference a signed number rather than just a marked row; `key`
+// is what two copies are compared on when the text alone would hide a change.
+function cell(v) {
+  if (v == null) return { text: '—' };
+  if (typeof v === 'number') return { text: n(v), n: v };
+  if (typeof v === 'string') return { text: v };
+  return v;
+}
+
+function viewRows(v, meta) {
+  if (!v || !v.ok) return null;
+  const H = v.hero, P = v.progress, L = v.lifetime, W = v.wallet, B = v.bags;
+  const rc = (id) => (meta ? rarityColor(meta, id) : null);
+  const secs = (s) => ({ text: playtime(s), n: s, fmt: playtime });
+  const sec = [];
+  sec.push(['Hero', [
+    ['Level', H.level], ['EXP', H.exp], ['Class', H.className],
+    ['Weapon / sub', `${H.main || '—'} / ${H.sub || '—'}`], ['Title', H.title || '—'],
+    ['Power', { text: n(H.power), n: H.power, hint: 'The game’s own upgrade score (compare.js powerOf): offence × survival' }],
+    ['Unspent skill pts', H.skillPts], ['Tree points', H.treePts], ['Summit points', H.summitPts],
+  ]]);
+  for (const b of v.stats) sec.push([b.title, b.rows.map((r) => [r.label, r.value])]);
+  sec.push(['Gear worn', v.gear.map((g) => [g.slot, g.empty ? '—' : {
+    text: `${g.name}${g.plus ? ` +${g.plus}` : ''}`, color: rc(g.rarity),
+    sub: [`${g.rarityName}${g.ilvl ? ` · ilvl ${g.ilvl}` : ''}${g.set ? ` · set ${g.set}` : ''}${g.locked ? ' · locked' : ''}`, ...g.lines].join(' · '),
+    key: JSON.stringify([g.name, g.plus, g.rarity, g.ilvl, g.lines]),
+  }])]);
+  sec.push([`Skills — ${H.className}`, v.skills.map((s) => [`${['', 'I', 'II', 'III', 'IV'][s.tier] || ''} ${s.name}`,
+    s.unlocked ? { text: `${s.lv}/${s.max}${s.equipped ? ' · on bar' : ''}`, n: s.lv } : `locked until Lv ${s.unlock}`])]);
+  sec.push(['Pets', [
+    ...v.pets.slots.map((x, i) => [`Slot ${i + 1}`, x ? `${x.name} · rung ${x.rung}` : '—']),
+    ['Owned', v.pets.owned],
+  ]]);
+  sec.push(['Wallet & bags', [
+    ['Gold', W.gold], ['Stones', W.stones.length ? W.stones.map(n).join(' / ') : '—'], ['Anvil Wards', W.wards], ['Tickets', W.tickets],
+    ['Backpack', B.backpack], ['Stash', B.stash], ['Post box', B.postbox], ['Altar offer waiting', B.altarOffer ? 'yes' : 'no'],
+  ]]);
+  sec.push(['Progress', [
+    ['Stage (now)', P.stage], ['Max stage', P.maxStage], ['Peak stage', P.peakStage],
+    ['Stage 400 cleared', P.cleared400 ? 'yes' : 'no'], ['Gate of 301', P.gate301 ? 'cleared' : 'no'],
+    ['Tower floor', P.maxFloor], ['Tower solo / party', `${n(P.towerSolo)} / ${n(P.towerParty)}`],
+    ['World boss dmg solo', P.wbDmg.solo], ['World boss dmg duo', P.wbDmg.duo],
+    ['World boss dmg trio', P.wbDmg.trio], ['World boss dmg squad', P.wbDmg.squad],
+    ['PvP rating', P.pvp.rating], ['PvP W / L / D', `${n(P.pvp.wins)} / ${n(P.pvp.losses)} / ${n(P.pvp.draws)}`],
+    ['Achievements', P.achievements],
+  ]]);
+  sec.push(['Lifetime', [
+    ['Played', secs(L.playedSec)], ['Idle', secs(L.idleSecs)], ['Days seen', L.daysSeen],
+    ['Kills', L.kills], ['Boss kills', L.bossKills], ['Deaths', L.deaths],
+    ['EXP earned', L.expEarned], ['Gold earned', L.goldEarned], ['Gold spent', L.goldSpent],
+    ['Drops', L.drops], ['Melts', L.melts], ['Cubes', L.cubes],
+    ['Forge tries / hits', `${n(L.forgeTries)} / ${n(L.forgeHits)}`], ['Best +', L.bestPlus], ['Ultimates', L.ultimates],
+    ['This run: kills', L.runKills], ['This run: time', secs(L.runSec)],
+    ...L.byClass.map((c) => [`Played as ${c.name}`, secs(c.sec)]),
+  ]]);
+  return sec;
+}
+
+function renderView(A, B, meta) {
+  if (!A.ok) return h('div', { class: 'alert bad' }, `This copy could not be read: ${A.reason}`);
+  const a = viewRows(A, meta);
+  const b = B && B.ok ? viewRows(B, meta) : null;
+  const out = [];
+  const head = (v) => `r${v.rev}${v.historyId == null ? ' (live)' : ''} · ${when(v.savedUtc)}`;
+  const hpRow = A.stats.flatMap((s) => s.rows).find((r) => r.key === 'hp');
+  const atkRow = A.stats.flatMap((s) => s.rows).find((r) => r.key === 'atk');
+  out.push(tiles([
+    ['Level', n(A.hero.level), A.hero.className],
+    ['Power', n(A.hero.power), b ? `compared: ${n(B.hero.power)}` : null],
+    ['Attack', atkRow ? atkRow.value : '—'],
+    ['Max HP', hpRow ? hpRow.value : '—'],
+    ['Gold', n(A.wallet.gold)],
+    ['Played', playtime(A.lifetime.playedSec), 'lifetime, all classes'],
+  ]));
+  if (B && !B.ok) out.push(h('div', { class: 'alert bad' }, `The compared copy could not be read: ${B.reason}`));
+  const bMap = new Map();
+  if (b) b.forEach(([, rows], si) => { for (const [lbl, val] of rows) bMap.set(`${si}|${lbl}`, cell(val)); });
+  let changed = 0;
+  const grid = h('div', { class: 'grid sv' });
+  a.forEach(([title, rows], si) => {
+    // Sections line up by POSITION (the skills title carries the class name,
+    // which a class swap changes); rows inside a section line up by label.
+    const body = rows.map(([lbl, val]) => {
+      const x = cell(val);
+      const y = b ? bMap.get(`${si}|${lbl}`) || { text: '—' } : null;
+      const diff = !!b && (x.key ?? x.text) !== (y.key ?? y.text);
+      if (diff) changed++;
+      let d = null;
+      if (diff && x.n != null && y.n != null) {
+        const dv = x.n - y.n;
+        d = h('span', { class: `dl ${dv < 0 ? 'badt' : 'good'}` }, `${dv > 0 ? '+' : '−'}${x.fmt ? x.fmt(Math.abs(dv)) : n(Math.abs(dv))}`);
+      }
+      const show = (c) => [h('div', { style: c.color ? { color: c.color } : null, title: c.hint || null }, c.text),
+        c.sub ? h('div', { class: 'muted small' }, c.sub) : null];
+      return h('tr', { class: diff ? 'sv-chg' : '' },
+        td(lbl, 'muted small'),
+        td([show(x), d]),
+        b ? td(show(y), 'muted') : null);
+    });
+    grid.append(h('div', { class: 'sub' }, h('h3', null, title),
+      h('table', { class: 'tight' },
+        b ? h('thead', null, h('tr', null, h('th', null, ''), h('th', null, head(A)), h('th', null, head(B)))) : null,
+        h('tbody', null, body))));
+  });
+  if (b) {
+    out.push(note(changed
+      ? `${changed} row${changed === 1 ? '' : 's'} differ (marked). The middle column is the copy shown, the right one is what it is compared with; +/− is shown minus compared.`
+      : 'These two copies are the same on every row shown.'));
+  }
+  out.push(grid);
+  return h('div', null, out);
 }
 
 // ── account ─────────────────────────────────────────────────────────────────
