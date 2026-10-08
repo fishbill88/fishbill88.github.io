@@ -115,6 +115,27 @@
         "gloves",
         "pants",
         "boots"
+      ],
+      "fury": [
+        "helmet",
+        "armor",
+        "gloves",
+        "pants",
+        "boots"
+      ],
+      "fortitude": [
+        "helmet",
+        "armor",
+        "gloves",
+        "pants",
+        "boots"
+      ],
+      "vigor": [
+        "helmet",
+        "armor",
+        "gloves",
+        "pants",
+        "boots"
       ]
     },
     "rarities": [
@@ -7198,6 +7219,657 @@
         "Divine Ash Sabatons",
         "Radiant Ash Sabatons"
       ]
+    },
+    "fury": {
+      "helmet": [
+        "Worn Fury Helm",
+        "Iron Fury Helm",
+        "Steel Fury Helm",
+        "Hardened Fury Helm",
+        "Soldier's Fury Helm",
+        "Knight's Fury Helm",
+        "Templar Fury Helm",
+        "Commander's Fury Helm",
+        "Royal Fury Helm",
+        "Rune Fury Helm",
+        "Legend Fury Helm",
+        "Fate Fury Helm",
+        "Hero's Fury Helm",
+        "Ember Fury Helm",
+        "Storm Fury Helm",
+        "Tempest Fury Helm",
+        "Vengeance Fury Helm",
+        "Obsidian Fury Helm",
+        "Void Fury Helm",
+        "Crystal Fury Helm",
+        "Prism Fury Helm",
+        "Dimensional Fury Helm",
+        "Phantom Fury Helm",
+        "Shadow Fury Helm",
+        "Wraith Fury Helm",
+        "Eclipse Fury Helm",
+        "Astral Fury Helm",
+        "Celestial Fury Helm",
+        "Eternal Fury Helm",
+        "Divine Fury Helm",
+        "Radiant Fury Helm",
+        "Ashen Fury Helm",
+        "Primal Fury Helm",
+        "Infernal Fury Helm",
+        "Abyssal Fury Helm",
+        "Titan Fury Helm",
+        "Seraphic Fury Helm",
+        "Dragon Fury Helm",
+        "Oblivion Fury Helm",
+        "Genesis Fury Helm",
+        "Summit Fury Helm"
+      ],
+      "armor": [
+        "Worn Fury Plate",
+        "Iron Fury Plate",
+        "Steel Fury Plate",
+        "Hardened Fury Plate",
+        "Soldier's Fury Plate",
+        "Knight's Fury Plate",
+        "Templar Fury Plate",
+        "Commander's Fury Plate",
+        "Royal Fury Plate",
+        "Rune Fury Plate",
+        "Legend Fury Plate",
+        "Fate Fury Plate",
+        "Hero's Fury Plate",
+        "Ember Fury Plate",
+        "Storm Fury Plate",
+        "Tempest Fury Plate",
+        "Vengeance Fury Plate",
+        "Obsidian Fury Plate",
+        "Void Fury Plate",
+        "Crystal Fury Plate",
+        "Prism Fury Plate",
+        "Dimensional Fury Plate",
+        "Phantom Fury Plate",
+        "Shadow Fury Plate",
+        "Wraith Fury Plate",
+        "Eclipse Fury Plate",
+        "Astral Fury Plate",
+        "Celestial Fury Plate",
+        "Eternal Fury Plate",
+        "Divine Fury Plate",
+        "Radiant Fury Plate",
+        "Ashen Fury Plate",
+        "Primal Fury Plate",
+        "Infernal Fury Plate",
+        "Abyssal Fury Plate",
+        "Titan Fury Plate",
+        "Seraphic Fury Plate",
+        "Dragon Fury Plate",
+        "Oblivion Fury Plate",
+        "Genesis Fury Plate",
+        "Summit Fury Plate"
+      ],
+      "gloves": [
+        "Worn Fury Fists",
+        "Iron Fury Fists",
+        "Steel Fury Fists",
+        "Hardened Fury Fists",
+        "Soldier's Fury Fists",
+        "Knight's Fury Fists",
+        "Templar Fury Fists",
+        "Commander's Fury Fists",
+        "Royal Fury Fists",
+        "Rune Fury Fists",
+        "Legend Fury Fists",
+        "Fate Fury Fists",
+        "Hero's Fury Fists",
+        "Ember Fury Fists",
+        "Storm Fury Fists",
+        "Tempest Fury Fists",
+        "Vengeance Fury Fists",
+        "Obsidian Fury Fists",
+        "Void Fury Fists",
+        "Crystal Fury Fists",
+        "Prism Fury Fists",
+        "Dimensional Fury Fists",
+        "Phantom Fury Fists",
+        "Shadow Fury Fists",
+        "Wraith Fury Fists",
+        "Eclipse Fury Fists",
+        "Astral Fury Fists",
+        "Celestial Fury Fists",
+        "Eternal Fury Fists",
+        "Divine Fury Fists",
+        "Radiant Fury Fists",
+        "Ashen Fury Fists",
+        "Primal Fury Fists",
+        "Infernal Fury Fists",
+        "Abyssal Fury Fists",
+        "Titan Fury Fists",
+        "Seraphic Fury Fists",
+        "Dragon Fury Fists",
+        "Oblivion Fury Fists",
+        "Genesis Fury Fists",
+        "Summit Fury Fists"
+      ],
+      "pants": [
+        "Worn Fury Greaves",
+        "Iron Fury Greaves",
+        "Steel Fury Greaves",
+        "Hardened Fury Greaves",
+        "Soldier's Fury Greaves",
+        "Knight's Fury Greaves",
+        "Templar Fury Greaves",
+        "Commander's Fury Greaves",
+        "Royal Fury Greaves",
+        "Rune Fury Greaves",
+        "Legend Fury Greaves",
+        "Fate Fury Greaves",
+        "Hero's Fury Greaves",
+        "Ember Fury Greaves",
+        "Storm Fury Greaves",
+        "Tempest Fury Greaves",
+        "Vengeance Fury Greaves",
+        "Obsidian Fury Greaves",
+        "Void Fury Greaves",
+        "Crystal Fury Greaves",
+        "Prism Fury Greaves",
+        "Dimensional Fury Greaves",
+        "Phantom Fury Greaves",
+        "Shadow Fury Greaves",
+        "Wraith Fury Greaves",
+        "Eclipse Fury Greaves",
+        "Astral Fury Greaves",
+        "Celestial Fury Greaves",
+        "Eternal Fury Greaves",
+        "Divine Fury Greaves",
+        "Radiant Fury Greaves",
+        "Ashen Fury Greaves",
+        "Primal Fury Greaves",
+        "Infernal Fury Greaves",
+        "Abyssal Fury Greaves",
+        "Titan Fury Greaves",
+        "Seraphic Fury Greaves",
+        "Dragon Fury Greaves",
+        "Oblivion Fury Greaves",
+        "Genesis Fury Greaves",
+        "Summit Fury Greaves"
+      ],
+      "boots": [
+        "Worn Fury Treads",
+        "Iron Fury Treads",
+        "Steel Fury Treads",
+        "Hardened Fury Treads",
+        "Soldier's Fury Treads",
+        "Knight's Fury Treads",
+        "Templar Fury Treads",
+        "Commander's Fury Treads",
+        "Royal Fury Treads",
+        "Rune Fury Treads",
+        "Legend Fury Treads",
+        "Fate Fury Treads",
+        "Hero's Fury Treads",
+        "Ember Fury Treads",
+        "Storm Fury Treads",
+        "Tempest Fury Treads",
+        "Vengeance Fury Treads",
+        "Obsidian Fury Treads",
+        "Void Fury Treads",
+        "Crystal Fury Treads",
+        "Prism Fury Treads",
+        "Dimensional Fury Treads",
+        "Phantom Fury Treads",
+        "Shadow Fury Treads",
+        "Wraith Fury Treads",
+        "Eclipse Fury Treads",
+        "Astral Fury Treads",
+        "Celestial Fury Treads",
+        "Eternal Fury Treads",
+        "Divine Fury Treads",
+        "Radiant Fury Treads",
+        "Ashen Fury Treads",
+        "Primal Fury Treads",
+        "Infernal Fury Treads",
+        "Abyssal Fury Treads",
+        "Titan Fury Treads",
+        "Seraphic Fury Treads",
+        "Dragon Fury Treads",
+        "Oblivion Fury Treads",
+        "Genesis Fury Treads",
+        "Summit Fury Treads"
+      ]
+    },
+    "fortitude": {
+      "helmet": [
+        "Worn Fortitude Helm",
+        "Iron Fortitude Helm",
+        "Steel Fortitude Helm",
+        "Hardened Fortitude Helm",
+        "Soldier's Fortitude Helm",
+        "Knight's Fortitude Helm",
+        "Templar Fortitude Helm",
+        "Commander's Fortitude Helm",
+        "Royal Fortitude Helm",
+        "Rune Fortitude Helm",
+        "Legend Fortitude Helm",
+        "Fate Fortitude Helm",
+        "Hero's Fortitude Helm",
+        "Ember Fortitude Helm",
+        "Storm Fortitude Helm",
+        "Tempest Fortitude Helm",
+        "Vengeance Fortitude Helm",
+        "Obsidian Fortitude Helm",
+        "Void Fortitude Helm",
+        "Crystal Fortitude Helm",
+        "Prism Fortitude Helm",
+        "Dimensional Fortitude Helm",
+        "Phantom Fortitude Helm",
+        "Shadow Fortitude Helm",
+        "Wraith Fortitude Helm",
+        "Eclipse Fortitude Helm",
+        "Astral Fortitude Helm",
+        "Celestial Fortitude Helm",
+        "Eternal Fortitude Helm",
+        "Divine Fortitude Helm",
+        "Radiant Fortitude Helm",
+        "Ashen Fortitude Helm",
+        "Primal Fortitude Helm",
+        "Infernal Fortitude Helm",
+        "Abyssal Fortitude Helm",
+        "Titan Fortitude Helm",
+        "Seraphic Fortitude Helm",
+        "Dragon Fortitude Helm",
+        "Oblivion Fortitude Helm",
+        "Genesis Fortitude Helm",
+        "Summit Fortitude Helm"
+      ],
+      "armor": [
+        "Worn Fortitude Plate",
+        "Iron Fortitude Plate",
+        "Steel Fortitude Plate",
+        "Hardened Fortitude Plate",
+        "Soldier's Fortitude Plate",
+        "Knight's Fortitude Plate",
+        "Templar Fortitude Plate",
+        "Commander's Fortitude Plate",
+        "Royal Fortitude Plate",
+        "Rune Fortitude Plate",
+        "Legend Fortitude Plate",
+        "Fate Fortitude Plate",
+        "Hero's Fortitude Plate",
+        "Ember Fortitude Plate",
+        "Storm Fortitude Plate",
+        "Tempest Fortitude Plate",
+        "Vengeance Fortitude Plate",
+        "Obsidian Fortitude Plate",
+        "Void Fortitude Plate",
+        "Crystal Fortitude Plate",
+        "Prism Fortitude Plate",
+        "Dimensional Fortitude Plate",
+        "Phantom Fortitude Plate",
+        "Shadow Fortitude Plate",
+        "Wraith Fortitude Plate",
+        "Eclipse Fortitude Plate",
+        "Astral Fortitude Plate",
+        "Celestial Fortitude Plate",
+        "Eternal Fortitude Plate",
+        "Divine Fortitude Plate",
+        "Radiant Fortitude Plate",
+        "Ashen Fortitude Plate",
+        "Primal Fortitude Plate",
+        "Infernal Fortitude Plate",
+        "Abyssal Fortitude Plate",
+        "Titan Fortitude Plate",
+        "Seraphic Fortitude Plate",
+        "Dragon Fortitude Plate",
+        "Oblivion Fortitude Plate",
+        "Genesis Fortitude Plate",
+        "Summit Fortitude Plate"
+      ],
+      "gloves": [
+        "Worn Fortitude Grips",
+        "Iron Fortitude Grips",
+        "Steel Fortitude Grips",
+        "Hardened Fortitude Grips",
+        "Soldier's Fortitude Grips",
+        "Knight's Fortitude Grips",
+        "Templar Fortitude Grips",
+        "Commander's Fortitude Grips",
+        "Royal Fortitude Grips",
+        "Rune Fortitude Grips",
+        "Legend Fortitude Grips",
+        "Fate Fortitude Grips",
+        "Hero's Fortitude Grips",
+        "Ember Fortitude Grips",
+        "Storm Fortitude Grips",
+        "Tempest Fortitude Grips",
+        "Vengeance Fortitude Grips",
+        "Obsidian Fortitude Grips",
+        "Void Fortitude Grips",
+        "Crystal Fortitude Grips",
+        "Prism Fortitude Grips",
+        "Dimensional Fortitude Grips",
+        "Phantom Fortitude Grips",
+        "Shadow Fortitude Grips",
+        "Wraith Fortitude Grips",
+        "Eclipse Fortitude Grips",
+        "Astral Fortitude Grips",
+        "Celestial Fortitude Grips",
+        "Eternal Fortitude Grips",
+        "Divine Fortitude Grips",
+        "Radiant Fortitude Grips",
+        "Ashen Fortitude Grips",
+        "Primal Fortitude Grips",
+        "Infernal Fortitude Grips",
+        "Abyssal Fortitude Grips",
+        "Titan Fortitude Grips",
+        "Seraphic Fortitude Grips",
+        "Dragon Fortitude Grips",
+        "Oblivion Fortitude Grips",
+        "Genesis Fortitude Grips",
+        "Summit Fortitude Grips"
+      ],
+      "pants": [
+        "Worn Fortitude Greaves",
+        "Iron Fortitude Greaves",
+        "Steel Fortitude Greaves",
+        "Hardened Fortitude Greaves",
+        "Soldier's Fortitude Greaves",
+        "Knight's Fortitude Greaves",
+        "Templar Fortitude Greaves",
+        "Commander's Fortitude Greaves",
+        "Royal Fortitude Greaves",
+        "Rune Fortitude Greaves",
+        "Legend Fortitude Greaves",
+        "Fate Fortitude Greaves",
+        "Hero's Fortitude Greaves",
+        "Ember Fortitude Greaves",
+        "Storm Fortitude Greaves",
+        "Tempest Fortitude Greaves",
+        "Vengeance Fortitude Greaves",
+        "Obsidian Fortitude Greaves",
+        "Void Fortitude Greaves",
+        "Crystal Fortitude Greaves",
+        "Prism Fortitude Greaves",
+        "Dimensional Fortitude Greaves",
+        "Phantom Fortitude Greaves",
+        "Shadow Fortitude Greaves",
+        "Wraith Fortitude Greaves",
+        "Eclipse Fortitude Greaves",
+        "Astral Fortitude Greaves",
+        "Celestial Fortitude Greaves",
+        "Eternal Fortitude Greaves",
+        "Divine Fortitude Greaves",
+        "Radiant Fortitude Greaves",
+        "Ashen Fortitude Greaves",
+        "Primal Fortitude Greaves",
+        "Infernal Fortitude Greaves",
+        "Abyssal Fortitude Greaves",
+        "Titan Fortitude Greaves",
+        "Seraphic Fortitude Greaves",
+        "Dragon Fortitude Greaves",
+        "Oblivion Fortitude Greaves",
+        "Genesis Fortitude Greaves",
+        "Summit Fortitude Greaves"
+      ],
+      "boots": [
+        "Worn Fortitude Treads",
+        "Iron Fortitude Treads",
+        "Steel Fortitude Treads",
+        "Hardened Fortitude Treads",
+        "Soldier's Fortitude Treads",
+        "Knight's Fortitude Treads",
+        "Templar Fortitude Treads",
+        "Commander's Fortitude Treads",
+        "Royal Fortitude Treads",
+        "Rune Fortitude Treads",
+        "Legend Fortitude Treads",
+        "Fate Fortitude Treads",
+        "Hero's Fortitude Treads",
+        "Ember Fortitude Treads",
+        "Storm Fortitude Treads",
+        "Tempest Fortitude Treads",
+        "Vengeance Fortitude Treads",
+        "Obsidian Fortitude Treads",
+        "Void Fortitude Treads",
+        "Crystal Fortitude Treads",
+        "Prism Fortitude Treads",
+        "Dimensional Fortitude Treads",
+        "Phantom Fortitude Treads",
+        "Shadow Fortitude Treads",
+        "Wraith Fortitude Treads",
+        "Eclipse Fortitude Treads",
+        "Astral Fortitude Treads",
+        "Celestial Fortitude Treads",
+        "Eternal Fortitude Treads",
+        "Divine Fortitude Treads",
+        "Radiant Fortitude Treads",
+        "Ashen Fortitude Treads",
+        "Primal Fortitude Treads",
+        "Infernal Fortitude Treads",
+        "Abyssal Fortitude Treads",
+        "Titan Fortitude Treads",
+        "Seraphic Fortitude Treads",
+        "Dragon Fortitude Treads",
+        "Oblivion Fortitude Treads",
+        "Genesis Fortitude Treads",
+        "Summit Fortitude Treads"
+      ]
+    },
+    "vigor": {
+      "helmet": [
+        "Worn Vigor Helm",
+        "Iron Vigor Helm",
+        "Steel Vigor Helm",
+        "Hardened Vigor Helm",
+        "Soldier's Vigor Helm",
+        "Knight's Vigor Helm",
+        "Templar Vigor Helm",
+        "Commander's Vigor Helm",
+        "Royal Vigor Helm",
+        "Rune Vigor Helm",
+        "Legend Vigor Helm",
+        "Fate Vigor Helm",
+        "Hero's Vigor Helm",
+        "Ember Vigor Helm",
+        "Storm Vigor Helm",
+        "Tempest Vigor Helm",
+        "Vengeance Vigor Helm",
+        "Obsidian Vigor Helm",
+        "Void Vigor Helm",
+        "Crystal Vigor Helm",
+        "Prism Vigor Helm",
+        "Dimensional Vigor Helm",
+        "Phantom Vigor Helm",
+        "Shadow Vigor Helm",
+        "Wraith Vigor Helm",
+        "Eclipse Vigor Helm",
+        "Astral Vigor Helm",
+        "Celestial Vigor Helm",
+        "Eternal Vigor Helm",
+        "Divine Vigor Helm",
+        "Radiant Vigor Helm",
+        "Ashen Vigor Helm",
+        "Primal Vigor Helm",
+        "Infernal Vigor Helm",
+        "Abyssal Vigor Helm",
+        "Titan Vigor Helm",
+        "Seraphic Vigor Helm",
+        "Dragon Vigor Helm",
+        "Oblivion Vigor Helm",
+        "Genesis Vigor Helm",
+        "Summit Vigor Helm"
+      ],
+      "armor": [
+        "Worn Vigor Plate",
+        "Iron Vigor Plate",
+        "Steel Vigor Plate",
+        "Hardened Vigor Plate",
+        "Soldier's Vigor Plate",
+        "Knight's Vigor Plate",
+        "Templar Vigor Plate",
+        "Commander's Vigor Plate",
+        "Royal Vigor Plate",
+        "Rune Vigor Plate",
+        "Legend Vigor Plate",
+        "Fate Vigor Plate",
+        "Hero's Vigor Plate",
+        "Ember Vigor Plate",
+        "Storm Vigor Plate",
+        "Tempest Vigor Plate",
+        "Vengeance Vigor Plate",
+        "Obsidian Vigor Plate",
+        "Void Vigor Plate",
+        "Crystal Vigor Plate",
+        "Prism Vigor Plate",
+        "Dimensional Vigor Plate",
+        "Phantom Vigor Plate",
+        "Shadow Vigor Plate",
+        "Wraith Vigor Plate",
+        "Eclipse Vigor Plate",
+        "Astral Vigor Plate",
+        "Celestial Vigor Plate",
+        "Eternal Vigor Plate",
+        "Divine Vigor Plate",
+        "Radiant Vigor Plate",
+        "Ashen Vigor Plate",
+        "Primal Vigor Plate",
+        "Infernal Vigor Plate",
+        "Abyssal Vigor Plate",
+        "Titan Vigor Plate",
+        "Seraphic Vigor Plate",
+        "Dragon Vigor Plate",
+        "Oblivion Vigor Plate",
+        "Genesis Vigor Plate",
+        "Summit Vigor Plate"
+      ],
+      "gloves": [
+        "Worn Vigor Grips",
+        "Iron Vigor Grips",
+        "Steel Vigor Grips",
+        "Hardened Vigor Grips",
+        "Soldier's Vigor Grips",
+        "Knight's Vigor Grips",
+        "Templar Vigor Grips",
+        "Commander's Vigor Grips",
+        "Royal Vigor Grips",
+        "Rune Vigor Grips",
+        "Legend Vigor Grips",
+        "Fate Vigor Grips",
+        "Hero's Vigor Grips",
+        "Ember Vigor Grips",
+        "Storm Vigor Grips",
+        "Tempest Vigor Grips",
+        "Vengeance Vigor Grips",
+        "Obsidian Vigor Grips",
+        "Void Vigor Grips",
+        "Crystal Vigor Grips",
+        "Prism Vigor Grips",
+        "Dimensional Vigor Grips",
+        "Phantom Vigor Grips",
+        "Shadow Vigor Grips",
+        "Wraith Vigor Grips",
+        "Eclipse Vigor Grips",
+        "Astral Vigor Grips",
+        "Celestial Vigor Grips",
+        "Eternal Vigor Grips",
+        "Divine Vigor Grips",
+        "Radiant Vigor Grips",
+        "Ashen Vigor Grips",
+        "Primal Vigor Grips",
+        "Infernal Vigor Grips",
+        "Abyssal Vigor Grips",
+        "Titan Vigor Grips",
+        "Seraphic Vigor Grips",
+        "Dragon Vigor Grips",
+        "Oblivion Vigor Grips",
+        "Genesis Vigor Grips",
+        "Summit Vigor Grips"
+      ],
+      "pants": [
+        "Worn Vigor Greaves",
+        "Iron Vigor Greaves",
+        "Steel Vigor Greaves",
+        "Hardened Vigor Greaves",
+        "Soldier's Vigor Greaves",
+        "Knight's Vigor Greaves",
+        "Templar Vigor Greaves",
+        "Commander's Vigor Greaves",
+        "Royal Vigor Greaves",
+        "Rune Vigor Greaves",
+        "Legend Vigor Greaves",
+        "Fate Vigor Greaves",
+        "Hero's Vigor Greaves",
+        "Ember Vigor Greaves",
+        "Storm Vigor Greaves",
+        "Tempest Vigor Greaves",
+        "Vengeance Vigor Greaves",
+        "Obsidian Vigor Greaves",
+        "Void Vigor Greaves",
+        "Crystal Vigor Greaves",
+        "Prism Vigor Greaves",
+        "Dimensional Vigor Greaves",
+        "Phantom Vigor Greaves",
+        "Shadow Vigor Greaves",
+        "Wraith Vigor Greaves",
+        "Eclipse Vigor Greaves",
+        "Astral Vigor Greaves",
+        "Celestial Vigor Greaves",
+        "Eternal Vigor Greaves",
+        "Divine Vigor Greaves",
+        "Radiant Vigor Greaves",
+        "Ashen Vigor Greaves",
+        "Primal Vigor Greaves",
+        "Infernal Vigor Greaves",
+        "Abyssal Vigor Greaves",
+        "Titan Vigor Greaves",
+        "Seraphic Vigor Greaves",
+        "Dragon Vigor Greaves",
+        "Oblivion Vigor Greaves",
+        "Genesis Vigor Greaves",
+        "Summit Vigor Greaves"
+      ],
+      "boots": [
+        "Worn Vigor Treads",
+        "Iron Vigor Treads",
+        "Steel Vigor Treads",
+        "Hardened Vigor Treads",
+        "Soldier's Vigor Treads",
+        "Knight's Vigor Treads",
+        "Templar Vigor Treads",
+        "Commander's Vigor Treads",
+        "Royal Vigor Treads",
+        "Rune Vigor Treads",
+        "Legend Vigor Treads",
+        "Fate Vigor Treads",
+        "Hero's Vigor Treads",
+        "Ember Vigor Treads",
+        "Storm Vigor Treads",
+        "Tempest Vigor Treads",
+        "Vengeance Vigor Treads",
+        "Obsidian Vigor Treads",
+        "Void Vigor Treads",
+        "Crystal Vigor Treads",
+        "Prism Vigor Treads",
+        "Dimensional Vigor Treads",
+        "Phantom Vigor Treads",
+        "Shadow Vigor Treads",
+        "Wraith Vigor Treads",
+        "Eclipse Vigor Treads",
+        "Astral Vigor Treads",
+        "Celestial Vigor Treads",
+        "Eternal Vigor Treads",
+        "Divine Vigor Treads",
+        "Radiant Vigor Treads",
+        "Ashen Vigor Treads",
+        "Primal Vigor Treads",
+        "Infernal Vigor Treads",
+        "Abyssal Vigor Treads",
+        "Titan Vigor Treads",
+        "Seraphic Vigor Treads",
+        "Dragon Vigor Treads",
+        "Oblivion Vigor Treads",
+        "Genesis Vigor Treads",
+        "Summit Vigor Treads"
+      ]
     }
   },
   "stats": {
@@ -7803,6 +8475,102 @@
             3
           ]
         ]
+      },
+      "fury": {
+        "helmet": [
+          [
+            "critPct",
+            3
+          ]
+        ],
+        "armor": [
+          [
+            "hpPct",
+            4
+          ]
+        ],
+        "gloves": [
+          [
+            "atkFlat",
+            4
+          ]
+        ],
+        "pants": [
+          [
+            "defPct",
+            2
+          ]
+        ],
+        "boots": [
+          [
+            "atkSpdPct",
+            3
+          ]
+        ]
+      },
+      "fortitude": {
+        "helmet": [
+          [
+            "blockAmtFlat",
+            3
+          ]
+        ],
+        "armor": [
+          [
+            "hpPct",
+            4
+          ]
+        ],
+        "gloves": [
+          [
+            "atkFlat",
+            1
+          ]
+        ],
+        "pants": [
+          [
+            "blockPct",
+            4
+          ]
+        ],
+        "boots": [
+          [
+            "defPct",
+            6
+          ]
+        ]
+      },
+      "vigor": {
+        "helmet": [
+          [
+            "regenPerSec",
+            0.8
+          ]
+        ],
+        "armor": [
+          [
+            "hpPct",
+            8
+          ]
+        ],
+        "gloves": [
+          [
+            "atkFlat",
+            2
+          ]
+        ],
+        "pants": [
+          [
+            "hpPct",
+            6
+          ]
+        ],
+        "boots": [
+          [
+            "defPct",
+            2
+          ]
+        ]
       }
     },
     "subBaseStats": {
@@ -8215,6 +8983,48 @@
           "lifestealPct",
           0.6
         ]
+      ],
+      "fury": [
+        [
+          "atkFlat",
+          2
+        ],
+        [
+          "critDmgPct",
+          6
+        ],
+        [
+          "atkSpdPct",
+          2
+        ]
+      ],
+      "fortitude": [
+        [
+          "blockPct",
+          2
+        ],
+        [
+          "blockAmtFlat",
+          1.5
+        ],
+        [
+          "hpPct",
+          4
+        ]
+      ],
+      "vigor": [
+        [
+          "regenPerSec",
+          0.4
+        ],
+        [
+          "healKillPct",
+          0.8
+        ],
+        [
+          "defPct",
+          4
+        ]
       ]
     },
     "familyAffixSwaps": {
@@ -8472,7 +9282,277 @@
         "cls": "summoner",
         "mastery": "soulbindPct",
         "classSet": true
+      },
+      "fury": {
+        "id": "fury",
+        "name": "Fury",
+        "aspect": "atkPct",
+        "aspectMag": 3,
+        "color": "#b0353a",
+        "family": null,
+        "statSet": true
+      },
+      "fortitude": {
+        "id": "fortitude",
+        "name": "Fortitude",
+        "aspect": "defPct",
+        "aspectMag": 4,
+        "color": "#7f93b4",
+        "family": null,
+        "statSet": true
+      },
+      "vigor": {
+        "id": "vigor",
+        "name": "Vigor",
+        "aspect": "hpPct",
+        "aspectMag": 4,
+        "color": "#5f9a5a",
+        "family": null,
+        "statSet": true
       }
+    },
+    "statSets": {
+      "fury": {
+        "id": "fury",
+        "name": "Fury",
+        "color": "#b0353a",
+        "aspect": "atkPct",
+        "aspectMag": 3,
+        "names": {
+          "helmet": "Fury Helm",
+          "armor": "Fury Plate",
+          "gloves": "Fury Fists",
+          "pants": "Fury Greaves",
+          "boots": "Fury Treads"
+        },
+        "base": {
+          "helmet": [
+            [
+              "critPct",
+              3
+            ]
+          ],
+          "armor": [
+            [
+              "hpPct",
+              4
+            ]
+          ],
+          "gloves": [
+            [
+              "atkFlat",
+              4
+            ]
+          ],
+          "pants": [
+            [
+              "defPct",
+              2
+            ]
+          ],
+          "boots": [
+            [
+              "atkSpdPct",
+              3
+            ]
+          ]
+        },
+        "affixes": [
+          [
+            "atkFlat",
+            2
+          ],
+          [
+            "critDmgPct",
+            6
+          ],
+          [
+            "atkSpdPct",
+            2
+          ]
+        ],
+        "bonus": {
+          "r2": {
+            "atkPct": 0.5
+          },
+          "r3": {
+            "atkPct": 1
+          },
+          "r5": {
+            "atkPct": 1.4,
+            "atkFlat": 0.6
+          }
+        },
+        "tint": {
+          "to": "#5a1a1c",
+          "k": 0.72,
+          "cloth": "#b0262a",
+          "kc": 0.85
+        },
+        "stat": true
+      },
+      "fortitude": {
+        "id": "fortitude",
+        "name": "Fortitude",
+        "color": "#7f93b4",
+        "aspect": "defPct",
+        "aspectMag": 4,
+        "names": {
+          "helmet": "Fortitude Helm",
+          "armor": "Fortitude Plate",
+          "gloves": "Fortitude Grips",
+          "pants": "Fortitude Greaves",
+          "boots": "Fortitude Treads"
+        },
+        "base": {
+          "helmet": [
+            [
+              "blockAmtFlat",
+              3
+            ]
+          ],
+          "armor": [
+            [
+              "hpPct",
+              4
+            ]
+          ],
+          "gloves": [
+            [
+              "atkFlat",
+              1
+            ]
+          ],
+          "pants": [
+            [
+              "blockPct",
+              4
+            ]
+          ],
+          "boots": [
+            [
+              "defPct",
+              6
+            ]
+          ]
+        },
+        "affixes": [
+          [
+            "blockPct",
+            2
+          ],
+          [
+            "blockAmtFlat",
+            1.5
+          ],
+          [
+            "hpPct",
+            4
+          ]
+        ],
+        "bonus": {
+          "r2": {
+            "defPct": 0.5
+          },
+          "r3": {
+            "defPct": 1
+          },
+          "r5": {
+            "defPct": 1.4,
+            "blockPct": 0.6
+          }
+        },
+        "tint": {
+          "to": "#8e97a6",
+          "k": 0.55,
+          "cloth": "#2f4f86",
+          "kc": 0.85
+        },
+        "stat": true
+      },
+      "vigor": {
+        "id": "vigor",
+        "name": "Vigor",
+        "color": "#5f9a5a",
+        "aspect": "hpPct",
+        "aspectMag": 4,
+        "names": {
+          "helmet": "Vigor Helm",
+          "armor": "Vigor Plate",
+          "gloves": "Vigor Grips",
+          "pants": "Vigor Greaves",
+          "boots": "Vigor Treads"
+        },
+        "base": {
+          "helmet": [
+            [
+              "regenPerSec",
+              0.8
+            ]
+          ],
+          "armor": [
+            [
+              "hpPct",
+              8
+            ]
+          ],
+          "gloves": [
+            [
+              "atkFlat",
+              2
+            ]
+          ],
+          "pants": [
+            [
+              "hpPct",
+              6
+            ]
+          ],
+          "boots": [
+            [
+              "defPct",
+              2
+            ]
+          ]
+        },
+        "affixes": [
+          [
+            "regenPerSec",
+            0.4
+          ],
+          [
+            "healKillPct",
+            0.8
+          ],
+          [
+            "defPct",
+            4
+          ]
+        ],
+        "bonus": {
+          "r2": {
+            "hpPct": 0.5
+          },
+          "r3": {
+            "hpPct": 1
+          },
+          "r5": {
+            "hpPct": 1.4,
+            "regenPerSec": 0.6
+          }
+        },
+        "tint": {
+          "to": "#b07a34",
+          "k": 0.74,
+          "cloth": "#2f6b3c",
+          "kc": 0.85
+        },
+        "stat": true
+      }
+    },
+    "statSetRules": {
+      "minIlvl": 200,
+      "dropPct": 20
     },
     "classSets": {
       "lionfist": {
@@ -8993,6 +10073,49 @@
           }
         }
       },
+      "statTable": {
+        "fury": {
+          "r2": {
+            "atkPct": 0.5
+          },
+          "r3": {
+            "atkPct": 1
+          },
+          "r5": {
+            "atkPct": 1.4,
+            "atkFlat": 0.6
+          }
+        },
+        "fortitude": {
+          "r2": {
+            "defPct": 0.5
+          },
+          "r3": {
+            "defPct": 1
+          },
+          "r5": {
+            "defPct": 1.4,
+            "blockPct": 0.6
+          }
+        },
+        "vigor": {
+          "r2": {
+            "hpPct": 0.5
+          },
+          "r3": {
+            "hpPct": 1
+          },
+          "r5": {
+            "hpPct": 1.4,
+            "regenPerSec": 0.6
+          }
+        }
+      },
+      "statRungAt": [
+        2,
+        3,
+        5
+      ],
       "signature": {
         "war": {
           "name": "Bulwark",
