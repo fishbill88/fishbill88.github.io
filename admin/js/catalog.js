@@ -164,7 +164,9 @@ export function itemStamp(R) {
   const { meta } = R;
   const rarity = select(meta.rarities.map((r) => [r.id, r.name]));
   const plus = num({ min: 0, max: meta.maxPlus, value: 0, class: 'w5' });
-  const set = select([['', 'No set'], ...meta.sets.map((s) => [s.id, s.name + (s.classSet ? ' (class)' : '')])]);
+  // A stat set (Fury / Fortitude / Vigor) carries its ilvl floor in /meta.
+  const setLabel = (s) => s.name + (s.classSet ? ' (class)' : s.statSet ? ` (stat, ilvl ${s.minIlvl || 200}+)` : '');
+  const set = select([['', 'No set'], ...meta.sets.map((s) => [s.id, setLabel(s)])]);
   const backNote = h('div', { class: 'plain' }, '—');
   const fR = field('Rarity', rarity);
   const fB = field('Rarity', backNote);
@@ -213,7 +215,7 @@ export function choicePicker(R) {
 
   const stR = select(meta.rarities.map((r) => [r.id, r.name]));
   const stP = num({ min: 0, max: meta.maxPlus, value: 0, class: 'w5' });
-  const stS = select([['', 'No set'], ...meta.sets.map((s) => [s.id, s.name])]);
+  const stS = select([['', 'No set'], ...meta.sets.map((s) => [s.id, s.name + (s.statSet ? ' (stat)' : '')])]);
 
   const pool = h('div', { class: 'lb', role: 'listbox', 'aria-multiselectable': 'true', tabindex: 0 });
   const picked = h('div', { class: 'lb', role: 'listbox', 'aria-multiselectable': 'true', tabindex: 0 });
