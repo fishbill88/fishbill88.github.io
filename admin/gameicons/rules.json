@@ -198,7 +198,14 @@
       "per": 2,
       "max": 5,
       "maxPlusColor": "#ffd75e",
-      "color": "#8fe6a8"
+      "color": "#8fe6a8",
+      "decadeColors": [
+        "#8fe6a8",
+        "#4fb4ff",
+        "#b48cff",
+        "#ff9a3c",
+        "#ff4d5e"
+      ]
     }
   },
   "ilvls": [
@@ -9036,6 +9043,16 @@
         "blockAmtFlat": null
       }
     },
+    "accessoryOnly": {
+      "keys": [
+        "goldPct"
+      ],
+      "slots": [
+        "ring",
+        "amulet",
+        "bracer"
+      ]
+    },
     "aspectMag": 3,
     "counts": {
       "normal": 0,
@@ -9109,7 +9126,8 @@
       "ring2": "Ring 2",
       "amulet": "Amulet",
       "bracer": "Bracer",
-      "misc": "Misc"
+      "misc": "Misc",
+      "gem": "Gem"
     },
     "slots": [
       "weapon",
@@ -12482,7 +12500,7 @@
     "percentUnlessFlat": true
   },
   "forge": {
-    "maxPlus": 10,
+    "maxPlus": 50,
     "chance": [
       100,
       90,
@@ -12493,11 +12511,84 @@
       35,
       25,
       18,
-      12
+      12,
+      30,
+      28,
+      25,
+      23,
+      21,
+      19,
+      17,
+      15,
+      12,
+      10,
+      25,
+      23,
+      21,
+      19,
+      17,
+      15,
+      13,
+      11,
+      9,
+      8,
+      20,
+      18,
+      16,
+      15,
+      13,
+      12,
+      10,
+      9,
+      8,
+      6,
+      16,
+      15,
+      13,
+      12,
+      10,
+      9,
+      8,
+      7,
+      6,
+      5
     ],
     "goldBase": 40,
     "costGrow": 1.5,
-    "plusMul": 0.06
+    "plusMul": 0.06,
+    "bandCap": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "plusMulHigh": 0.03,
+    "plusKnee": 10,
+    "costGrowHigh": 1.08,
+    "costKnee": 9,
+    "gemGates": {
+      "10": {
+        "gem": "sapphire",
+        "n": 10
+      },
+      "20": {
+        "gem": "topaz",
+        "n": 20
+      },
+      "30": {
+        "gem": "amethyst",
+        "n": 30
+      },
+      "40": {
+        "gem": "sunstone",
+        "n": 40
+      },
+      "50": {
+        "gem": "ruby",
+        "n": 50
+      }
+    }
   },
   "trade": {
     "rarities": [

@@ -13180,6 +13180,506 @@
     "file": "consumable-mythicstone-none-t0-normal.png"
   },
   {
+    "key": "helmet-sapphire",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Cobalite",
+    "className": null,
+    "description": "Cobalite — a Sapphire-tier Helmet gem. The forge spends 10 of them on every attempt to take helmet gear to +10, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-helmet-sapphire-none-t0-normal.png"
+  },
+  {
+    "key": "helmet-topaz",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Citrene",
+    "className": null,
+    "description": "Citrene — a Topaz-tier Helmet gem. The forge spends 20 of them on every attempt to take helmet gear to +20, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-helmet-topaz-none-t0-normal.png"
+  },
+  {
+    "key": "helmet-amethyst",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Lilacite",
+    "className": null,
+    "description": "Lilacite — a Amethyst-tier Helmet gem. The forge spends 30 of them on every attempt to take helmet gear to +30, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-helmet-amethyst-none-t0-normal.png"
+  },
+  {
+    "key": "helmet-sunstone",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Pyrane",
+    "className": null,
+    "description": "Pyrane — a Sunstone-tier Helmet gem. The forge spends 40 of them on every attempt to take helmet gear to +40, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-helmet-sunstone-none-t0-normal.png"
+  },
+  {
+    "key": "helmet-ruby",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Garnyx",
+    "className": null,
+    "description": "Garnyx — a Ruby-tier Helmet gem. The forge spends 50 of them on every attempt to take helmet gear to +50, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-helmet-ruby-none-t0-normal.png"
+  },
+  {
+    "key": "armor-sapphire",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Azurine",
+    "className": null,
+    "description": "Azurine — a Sapphire-tier Armor gem. The forge spends 10 of them on every attempt to take armor gear to +10, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-armor-sapphire-none-t0-normal.png"
+  },
+  {
+    "key": "armor-topaz",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Ambrite",
+    "className": null,
+    "description": "Ambrite — a Topaz-tier Armor gem. The forge spends 20 of them on every attempt to take armor gear to +20, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-armor-topaz-none-t0-normal.png"
+  },
+  {
+    "key": "armor-amethyst",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Mauvyst",
+    "className": null,
+    "description": "Mauvyst — a Amethyst-tier Armor gem. The forge spends 30 of them on every attempt to take armor gear to +30, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-armor-amethyst-none-t0-normal.png"
+  },
+  {
+    "key": "armor-sunstone",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Cindrel",
+    "className": null,
+    "description": "Cindrel — a Sunstone-tier Armor gem. The forge spends 40 of them on every attempt to take armor gear to +40, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-armor-sunstone-none-t0-normal.png"
+  },
+  {
+    "key": "armor-ruby",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Scarlite",
+    "className": null,
+    "description": "Scarlite — a Ruby-tier Armor gem. The forge spends 50 of them on every attempt to take armor gear to +50, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-armor-ruby-none-t0-normal.png"
+  },
+  {
+    "key": "gloves-sapphire",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Glacite",
+    "className": null,
+    "description": "Glacite — a Sapphire-tier Gloves gem. The forge spends 10 of them on every attempt to take gloves gear to +10, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-gloves-sapphire-none-t0-normal.png"
+  },
+  {
+    "key": "gloves-topaz",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Solvane",
+    "className": null,
+    "description": "Solvane — a Topaz-tier Gloves gem. The forge spends 20 of them on every attempt to take gloves gear to +20, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-gloves-topaz-none-t0-normal.png"
+  },
+  {
+    "key": "gloves-amethyst",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Orchyd",
+    "className": null,
+    "description": "Orchyd — a Amethyst-tier Gloves gem. The forge spends 30 of them on every attempt to take gloves gear to +30, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-gloves-amethyst-none-t0-normal.png"
+  },
+  {
+    "key": "gloves-sunstone",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Emberyl",
+    "className": null,
+    "description": "Emberyl — a Sunstone-tier Gloves gem. The forge spends 40 of them on every attempt to take gloves gear to +40, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-gloves-sunstone-none-t0-normal.png"
+  },
+  {
+    "key": "gloves-ruby",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Rubrix",
+    "className": null,
+    "description": "Rubrix — a Ruby-tier Gloves gem. The forge spends 50 of them on every attempt to take gloves gear to +50, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-gloves-ruby-none-t0-normal.png"
+  },
+  {
+    "key": "pants-sapphire",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Marinel",
+    "className": null,
+    "description": "Marinel — a Sapphire-tier Pants gem. The forge spends 10 of them on every attempt to take pants gear to +10, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-pants-sapphire-none-t0-normal.png"
+  },
+  {
+    "key": "pants-topaz",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Aurelle",
+    "className": null,
+    "description": "Aurelle — a Topaz-tier Pants gem. The forge spends 20 of them on every attempt to take pants gear to +20, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-pants-topaz-none-t0-normal.png"
+  },
+  {
+    "key": "pants-amethyst",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Violane",
+    "className": null,
+    "description": "Violane — a Amethyst-tier Pants gem. The forge spends 30 of them on every attempt to take pants gear to +30, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-pants-amethyst-none-t0-normal.png"
+  },
+  {
+    "key": "pants-sunstone",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Flamite",
+    "className": null,
+    "description": "Flamite — a Sunstone-tier Pants gem. The forge spends 40 of them on every attempt to take pants gear to +40, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-pants-sunstone-none-t0-normal.png"
+  },
+  {
+    "key": "pants-ruby",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Vermyx",
+    "className": null,
+    "description": "Vermyx — a Ruby-tier Pants gem. The forge spends 50 of them on every attempt to take pants gear to +50, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-pants-ruby-none-t0-normal.png"
+  },
+  {
+    "key": "boots-sapphire",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Skyrite",
+    "className": null,
+    "description": "Skyrite — a Sapphire-tier Boots gem. The forge spends 10 of them on every attempt to take boots gear to +10, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-boots-sapphire-none-t0-normal.png"
+  },
+  {
+    "key": "boots-topaz",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Gildane",
+    "className": null,
+    "description": "Gildane — a Topaz-tier Boots gem. The forge spends 20 of them on every attempt to take boots gear to +20, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-boots-topaz-none-t0-normal.png"
+  },
+  {
+    "key": "boots-amethyst",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Plumyst",
+    "className": null,
+    "description": "Plumyst — a Amethyst-tier Boots gem. The forge spends 30 of them on every attempt to take boots gear to +30, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-boots-amethyst-none-t0-normal.png"
+  },
+  {
+    "key": "boots-sunstone",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Ochrel",
+    "className": null,
+    "description": "Ochrel — a Sunstone-tier Boots gem. The forge spends 40 of them on every attempt to take boots gear to +40, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-boots-sunstone-none-t0-normal.png"
+  },
+  {
+    "key": "boots-ruby",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Crimsite",
+    "className": null,
+    "description": "Crimsite — a Ruby-tier Boots gem. The forge spends 50 of them on every attempt to take boots gear to +50, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-boots-ruby-none-t0-normal.png"
+  },
+  {
+    "key": "ring-sapphire",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Ceruline",
+    "className": null,
+    "description": "Ceruline — a Sapphire-tier Ring gem. The forge spends 10 of them on every attempt to take ring gear to +10, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-ring-sapphire-none-t0-normal.png"
+  },
+  {
+    "key": "ring-topaz",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Luminel",
+    "className": null,
+    "description": "Luminel — a Topaz-tier Ring gem. The forge spends 20 of them on every attempt to take ring gear to +20, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-ring-topaz-none-t0-normal.png"
+  },
+  {
+    "key": "ring-amethyst",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Amethane",
+    "className": null,
+    "description": "Amethane — a Amethyst-tier Ring gem. The forge spends 30 of them on every attempt to take ring gear to +30, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-ring-amethyst-none-t0-normal.png"
+  },
+  {
+    "key": "ring-sunstone",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Sunvex",
+    "className": null,
+    "description": "Sunvex — a Sunstone-tier Ring gem. The forge spends 40 of them on every attempt to take ring gear to +40, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-ring-sunstone-none-t0-normal.png"
+  },
+  {
+    "key": "ring-ruby",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Rosalyx",
+    "className": null,
+    "description": "Rosalyx — a Ruby-tier Ring gem. The forge spends 50 of them on every attempt to take ring gear to +50, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-ring-ruby-none-t0-normal.png"
+  },
+  {
+    "key": "amulet-sapphire",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Indyss",
+    "className": null,
+    "description": "Indyss — a Sapphire-tier Amulet gem. The forge spends 10 of them on every attempt to take amulet gear to +10, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-amulet-sapphire-none-t0-normal.png"
+  },
+  {
+    "key": "amulet-topaz",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Topazel",
+    "className": null,
+    "description": "Topazel — a Topaz-tier Amulet gem. The forge spends 20 of them on every attempt to take amulet gear to +20, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-amulet-topaz-none-t0-normal.png"
+  },
+  {
+    "key": "amulet-amethyst",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Iridane",
+    "className": null,
+    "description": "Iridane — a Amethyst-tier Amulet gem. The forge spends 30 of them on every attempt to take amulet gear to +30, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-amulet-amethyst-none-t0-normal.png"
+  },
+  {
+    "key": "amulet-sunstone",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Blazite",
+    "className": null,
+    "description": "Blazite — a Sunstone-tier Amulet gem. The forge spends 40 of them on every attempt to take amulet gear to +40, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-amulet-sunstone-none-t0-normal.png"
+  },
+  {
+    "key": "amulet-ruby",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Carmyth",
+    "className": null,
+    "description": "Carmyth — a Ruby-tier Amulet gem. The forge spends 50 of them on every attempt to take amulet gear to +50, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-amulet-ruby-none-t0-normal.png"
+  },
+  {
+    "key": "bracer-sapphire",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Frostel",
+    "className": null,
+    "description": "Frostel — a Sapphire-tier Bracer gem. The forge spends 10 of them on every attempt to take bracer gear to +10, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-bracer-sapphire-none-t0-normal.png"
+  },
+  {
+    "key": "bracer-topaz",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Honeyx",
+    "className": null,
+    "description": "Honeyx — a Topaz-tier Bracer gem. The forge spends 20 of them on every attempt to take bracer gear to +20, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-bracer-topaz-none-t0-normal.png"
+  },
+  {
+    "key": "bracer-amethyst",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Lavendrite",
+    "className": null,
+    "description": "Lavendrite — a Amethyst-tier Bracer gem. The forge spends 30 of them on every attempt to take bracer gear to +30, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-bracer-amethyst-none-t0-normal.png"
+  },
+  {
+    "key": "bracer-sunstone",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Copperyl",
+    "className": null,
+    "description": "Copperyl — a Sunstone-tier Bracer gem. The forge spends 40 of them on every attempt to take bracer gear to +40, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-bracer-sunstone-none-t0-normal.png"
+  },
+  {
+    "key": "bracer-ruby",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Sanguel",
+    "className": null,
+    "description": "Sanguel — a Ruby-tier Bracer gem. The forge spends 50 of them on every attempt to take bracer gear to +50, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-bracer-ruby-none-t0-normal.png"
+  },
+  {
+    "key": "weapon-sapphire",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Edgesap",
+    "className": null,
+    "description": "Edgesap — a Sapphire-tier Weapon gem. The forge spends 10 of them on every attempt to take weapon gear to +10, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-weapon-sapphire-none-t0-normal.png"
+  },
+  {
+    "key": "weapon-topaz",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Solari",
+    "className": null,
+    "description": "Solari — a Topaz-tier Weapon gem. The forge spends 20 of them on every attempt to take weapon gear to +20, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-weapon-topaz-none-t0-normal.png"
+  },
+  {
+    "key": "weapon-amethyst",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Violyst",
+    "className": null,
+    "description": "Violyst — a Amethyst-tier Weapon gem. The forge spends 30 of them on every attempt to take weapon gear to +30, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-weapon-amethyst-none-t0-normal.png"
+  },
+  {
+    "key": "weapon-sunstone",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Flarite",
+    "className": null,
+    "description": "Flarite — a Sunstone-tier Weapon gem. The forge spends 40 of them on every attempt to take weapon gear to +40, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-weapon-sunstone-none-t0-normal.png"
+  },
+  {
+    "key": "weapon-ruby",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Bloodite",
+    "className": null,
+    "description": "Bloodite — a Ruby-tier Weapon gem. The forge spends 50 of them on every attempt to take weapon gear to +50, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-weapon-ruby-none-t0-normal.png"
+  },
+  {
+    "key": "offhand-sapphire",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Nautyx",
+    "className": null,
+    "description": "Nautyx — a Sapphire-tier Sub-weapon & Back gem. The forge spends 10 of them on every attempt to take sub-weapon & back gear to +10, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-offhand-sapphire-none-t0-normal.png"
+  },
+  {
+    "key": "offhand-topaz",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Saffrel",
+    "className": null,
+    "description": "Saffrel — a Topaz-tier Sub-weapon & Back gem. The forge spends 20 of them on every attempt to take sub-weapon & back gear to +20, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-offhand-topaz-none-t0-normal.png"
+  },
+  {
+    "key": "offhand-amethyst",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Duskite",
+    "className": null,
+    "description": "Duskite — a Amethyst-tier Sub-weapon & Back gem. The forge spends 30 of them on every attempt to take sub-weapon & back gear to +30, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-offhand-amethyst-none-t0-normal.png"
+  },
+  {
+    "key": "offhand-sunstone",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Tawnyl",
+    "className": null,
+    "description": "Tawnyl — a Sunstone-tier Sub-weapon & Back gem. The forge spends 40 of them on every attempt to take sub-weapon & back gear to +40, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-offhand-sunstone-none-t0-normal.png"
+  },
+  {
+    "key": "offhand-ruby",
+    "slot": "consumable",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Ruvelle",
+    "className": null,
+    "description": "Ruvelle — a Ruby-tier Sub-weapon & Back gem. The forge spends 50 of them on every attempt to take sub-weapon & back gear to +50, landed or not. A gem goes in your bag and stacks to 100 in one slot.",
+    "file": "consumable-offhand-ruby-none-t0-normal.png"
+  },
+  {
     "key": "sparrow",
     "slot": "back",
     "ilvl": 240,

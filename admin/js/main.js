@@ -7,13 +7,14 @@ import { forgetRules } from './catalog.js';
 
 const TABS = [
   ['overview', 'Overview'], ['players', 'Players'], ['shop', 'Shop'], ['rewards', 'Rewards'],
-  ['balance', 'Balance'], ['ranking', 'Ranking'], ['towerwb', 'Tower & World boss'], ['stall', 'Stall'],
+  ['balance', 'Balance'], ['drops', 'Drops'], ['ranking', 'Ranking'], ['towerwb', 'Tower & World boss'], ['stall', 'Stall'],
   ['audits', 'Audits'], ['crashes', 'Crashes'], ['server', 'Server'], ['log', 'Log'],
 ];
 const loaders = {
   overview: () => import('./tabs/overview.js'), players: () => import('./tabs/players.js'),
   shop: () => import('./tabs/shop.js'), rewards: () => import('./tabs/rewards.js'),
-  balance: () => import('./tabs/balance.js'), ranking: () => import('./tabs/ranking.js'),
+  balance: () => import('./tabs/balance.js'), drops: () => import('./tabs/drops.js'),
+  ranking: () => import('./tabs/ranking.js'),
   towerwb: () => import('./tabs/towerwb.js'), stall: () => import('./tabs/stall.js'),
   audits: () => import('./tabs/audits.js'), crashes: () => import('./tabs/crashes.js'),
   server: () => import('./tabs/server.js'), log: () => import('./tabs/log.js'),
