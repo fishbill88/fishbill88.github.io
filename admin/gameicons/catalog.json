@@ -27108,5 +27108,1925 @@
     "className": null,
     "description": "The laurel from her own brow. For a full turning of the sun she will not leave your side. Doubles monster spawns for 24h once equipped, and the Goddess walks at your side.",
     "file": "blessing-goddess-none-t0-legendary.png"
+  },
+  {
+    "key": "blademaster-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Blademaster Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-blademaster-1-none-t0-normal.png"
+  },
+  {
+    "key": "blademaster-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Blademaster Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-blademaster-1-none-t0-rare.png"
+  },
+  {
+    "key": "blademaster-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Blademaster Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-blademaster-1-none-t0-epic.png"
+  },
+  {
+    "key": "blademaster-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Blademaster Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-blademaster-1-none-t0-legendary.png"
+  },
+  {
+    "key": "blademaster-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Blademaster Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-blademaster-2-none-t0-normal.png"
+  },
+  {
+    "key": "blademaster-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Blademaster Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-blademaster-2-none-t0-rare.png"
+  },
+  {
+    "key": "blademaster-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Blademaster Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-blademaster-2-none-t0-epic.png"
+  },
+  {
+    "key": "blademaster-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Blademaster Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-blademaster-2-none-t0-legendary.png"
+  },
+  {
+    "key": "blademaster-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Blademaster Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-blademaster-3-none-t0-normal.png"
+  },
+  {
+    "key": "blademaster-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Blademaster Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-blademaster-3-none-t0-rare.png"
+  },
+  {
+    "key": "blademaster-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Blademaster Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-blademaster-3-none-t0-epic.png"
+  },
+  {
+    "key": "blademaster-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Blademaster Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-blademaster-3-none-t0-legendary.png"
+  },
+  {
+    "key": "blademaster-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Blademaster Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-blademaster-4-none-t0-normal.png"
+  },
+  {
+    "key": "blademaster-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Blademaster Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-blademaster-4-none-t0-rare.png"
+  },
+  {
+    "key": "blademaster-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Blademaster Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-blademaster-4-none-t0-epic.png"
+  },
+  {
+    "key": "blademaster-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Blademaster Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-blademaster-4-none-t0-legendary.png"
+  },
+  {
+    "key": "sentinel-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Sentinel Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-sentinel-1-none-t0-normal.png"
+  },
+  {
+    "key": "sentinel-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Sentinel Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-sentinel-1-none-t0-rare.png"
+  },
+  {
+    "key": "sentinel-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Sentinel Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-sentinel-1-none-t0-epic.png"
+  },
+  {
+    "key": "sentinel-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Sentinel Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-sentinel-1-none-t0-legendary.png"
+  },
+  {
+    "key": "sentinel-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Sentinel Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-sentinel-2-none-t0-normal.png"
+  },
+  {
+    "key": "sentinel-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Sentinel Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-sentinel-2-none-t0-rare.png"
+  },
+  {
+    "key": "sentinel-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Sentinel Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-sentinel-2-none-t0-epic.png"
+  },
+  {
+    "key": "sentinel-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Sentinel Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-sentinel-2-none-t0-legendary.png"
+  },
+  {
+    "key": "sentinel-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Sentinel Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-sentinel-3-none-t0-normal.png"
+  },
+  {
+    "key": "sentinel-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Sentinel Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-sentinel-3-none-t0-rare.png"
+  },
+  {
+    "key": "sentinel-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Sentinel Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-sentinel-3-none-t0-epic.png"
+  },
+  {
+    "key": "sentinel-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Sentinel Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-sentinel-3-none-t0-legendary.png"
+  },
+  {
+    "key": "sentinel-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Sentinel Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-sentinel-4-none-t0-normal.png"
+  },
+  {
+    "key": "sentinel-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Sentinel Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-sentinel-4-none-t0-rare.png"
+  },
+  {
+    "key": "sentinel-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Sentinel Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-sentinel-4-none-t0-epic.png"
+  },
+  {
+    "key": "sentinel-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Sentinel Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-sentinel-4-none-t0-legendary.png"
+  },
+  {
+    "key": "ranger-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Ranger Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-ranger-1-none-t0-normal.png"
+  },
+  {
+    "key": "ranger-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Ranger Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-ranger-1-none-t0-rare.png"
+  },
+  {
+    "key": "ranger-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Ranger Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-ranger-1-none-t0-epic.png"
+  },
+  {
+    "key": "ranger-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Ranger Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-ranger-1-none-t0-legendary.png"
+  },
+  {
+    "key": "ranger-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Ranger Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-ranger-2-none-t0-normal.png"
+  },
+  {
+    "key": "ranger-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Ranger Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-ranger-2-none-t0-rare.png"
+  },
+  {
+    "key": "ranger-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Ranger Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-ranger-2-none-t0-epic.png"
+  },
+  {
+    "key": "ranger-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Ranger Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-ranger-2-none-t0-legendary.png"
+  },
+  {
+    "key": "ranger-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Ranger Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-ranger-3-none-t0-normal.png"
+  },
+  {
+    "key": "ranger-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Ranger Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-ranger-3-none-t0-rare.png"
+  },
+  {
+    "key": "ranger-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Ranger Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-ranger-3-none-t0-epic.png"
+  },
+  {
+    "key": "ranger-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Ranger Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-ranger-3-none-t0-legendary.png"
+  },
+  {
+    "key": "ranger-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Ranger Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-ranger-4-none-t0-normal.png"
+  },
+  {
+    "key": "ranger-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Ranger Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-ranger-4-none-t0-rare.png"
+  },
+  {
+    "key": "ranger-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Ranger Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-ranger-4-none-t0-epic.png"
+  },
+  {
+    "key": "ranger-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Ranger Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-ranger-4-none-t0-legendary.png"
+  },
+  {
+    "key": "reaver-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Reaver Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-reaver-1-none-t0-normal.png"
+  },
+  {
+    "key": "reaver-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Reaver Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-reaver-1-none-t0-rare.png"
+  },
+  {
+    "key": "reaver-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Reaver Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-reaver-1-none-t0-epic.png"
+  },
+  {
+    "key": "reaver-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Reaver Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-reaver-1-none-t0-legendary.png"
+  },
+  {
+    "key": "reaver-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Reaver Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-reaver-2-none-t0-normal.png"
+  },
+  {
+    "key": "reaver-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Reaver Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-reaver-2-none-t0-rare.png"
+  },
+  {
+    "key": "reaver-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Reaver Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-reaver-2-none-t0-epic.png"
+  },
+  {
+    "key": "reaver-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Reaver Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-reaver-2-none-t0-legendary.png"
+  },
+  {
+    "key": "reaver-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Reaver Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-reaver-3-none-t0-normal.png"
+  },
+  {
+    "key": "reaver-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Reaver Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-reaver-3-none-t0-rare.png"
+  },
+  {
+    "key": "reaver-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Reaver Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-reaver-3-none-t0-epic.png"
+  },
+  {
+    "key": "reaver-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Reaver Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-reaver-3-none-t0-legendary.png"
+  },
+  {
+    "key": "reaver-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Reaver Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-reaver-4-none-t0-normal.png"
+  },
+  {
+    "key": "reaver-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Reaver Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-reaver-4-none-t0-rare.png"
+  },
+  {
+    "key": "reaver-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Reaver Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-reaver-4-none-t0-epic.png"
+  },
+  {
+    "key": "reaver-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Reaver Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-reaver-4-none-t0-legendary.png"
+  },
+  {
+    "key": "novice-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Boxer Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-novice-1-none-t0-normal.png"
+  },
+  {
+    "key": "novice-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Boxer Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-novice-1-none-t0-rare.png"
+  },
+  {
+    "key": "novice-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Boxer Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-novice-1-none-t0-epic.png"
+  },
+  {
+    "key": "novice-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Boxer Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-novice-1-none-t0-legendary.png"
+  },
+  {
+    "key": "novice-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Boxer Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-novice-2-none-t0-normal.png"
+  },
+  {
+    "key": "novice-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Boxer Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-novice-2-none-t0-rare.png"
+  },
+  {
+    "key": "novice-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Boxer Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-novice-2-none-t0-epic.png"
+  },
+  {
+    "key": "novice-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Boxer Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-novice-2-none-t0-legendary.png"
+  },
+  {
+    "key": "novice-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Boxer Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-novice-3-none-t0-normal.png"
+  },
+  {
+    "key": "novice-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Boxer Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-novice-3-none-t0-rare.png"
+  },
+  {
+    "key": "novice-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Boxer Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-novice-3-none-t0-epic.png"
+  },
+  {
+    "key": "novice-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Boxer Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-novice-3-none-t0-legendary.png"
+  },
+  {
+    "key": "novice-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Boxer Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-novice-4-none-t0-normal.png"
+  },
+  {
+    "key": "novice-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Boxer Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-novice-4-none-t0-rare.png"
+  },
+  {
+    "key": "novice-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Boxer Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-novice-4-none-t0-epic.png"
+  },
+  {
+    "key": "novice-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Boxer Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-novice-4-none-t0-legendary.png"
+  },
+  {
+    "key": "sorcerer-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Sorcerer Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-sorcerer-1-none-t0-normal.png"
+  },
+  {
+    "key": "sorcerer-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Sorcerer Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-sorcerer-1-none-t0-rare.png"
+  },
+  {
+    "key": "sorcerer-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Sorcerer Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-sorcerer-1-none-t0-epic.png"
+  },
+  {
+    "key": "sorcerer-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Sorcerer Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-sorcerer-1-none-t0-legendary.png"
+  },
+  {
+    "key": "sorcerer-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Sorcerer Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-sorcerer-2-none-t0-normal.png"
+  },
+  {
+    "key": "sorcerer-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Sorcerer Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-sorcerer-2-none-t0-rare.png"
+  },
+  {
+    "key": "sorcerer-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Sorcerer Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-sorcerer-2-none-t0-epic.png"
+  },
+  {
+    "key": "sorcerer-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Sorcerer Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-sorcerer-2-none-t0-legendary.png"
+  },
+  {
+    "key": "sorcerer-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Sorcerer Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-sorcerer-3-none-t0-normal.png"
+  },
+  {
+    "key": "sorcerer-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Sorcerer Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-sorcerer-3-none-t0-rare.png"
+  },
+  {
+    "key": "sorcerer-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Sorcerer Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-sorcerer-3-none-t0-epic.png"
+  },
+  {
+    "key": "sorcerer-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Sorcerer Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-sorcerer-3-none-t0-legendary.png"
+  },
+  {
+    "key": "sorcerer-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Sorcerer Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-sorcerer-4-none-t0-normal.png"
+  },
+  {
+    "key": "sorcerer-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Sorcerer Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-sorcerer-4-none-t0-rare.png"
+  },
+  {
+    "key": "sorcerer-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Sorcerer Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-sorcerer-4-none-t0-epic.png"
+  },
+  {
+    "key": "sorcerer-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Sorcerer Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-sorcerer-4-none-t0-legendary.png"
+  },
+  {
+    "key": "breaker-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Breaker Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-breaker-1-none-t0-normal.png"
+  },
+  {
+    "key": "breaker-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Breaker Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-breaker-1-none-t0-rare.png"
+  },
+  {
+    "key": "breaker-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Breaker Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-breaker-1-none-t0-epic.png"
+  },
+  {
+    "key": "breaker-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Breaker Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-breaker-1-none-t0-legendary.png"
+  },
+  {
+    "key": "breaker-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Breaker Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-breaker-2-none-t0-normal.png"
+  },
+  {
+    "key": "breaker-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Breaker Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-breaker-2-none-t0-rare.png"
+  },
+  {
+    "key": "breaker-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Breaker Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-breaker-2-none-t0-epic.png"
+  },
+  {
+    "key": "breaker-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Breaker Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-breaker-2-none-t0-legendary.png"
+  },
+  {
+    "key": "breaker-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Breaker Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-breaker-3-none-t0-normal.png"
+  },
+  {
+    "key": "breaker-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Breaker Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-breaker-3-none-t0-rare.png"
+  },
+  {
+    "key": "breaker-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Breaker Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-breaker-3-none-t0-epic.png"
+  },
+  {
+    "key": "breaker-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Breaker Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-breaker-3-none-t0-legendary.png"
+  },
+  {
+    "key": "breaker-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Breaker Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-breaker-4-none-t0-normal.png"
+  },
+  {
+    "key": "breaker-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Breaker Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-breaker-4-none-t0-rare.png"
+  },
+  {
+    "key": "breaker-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Breaker Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-breaker-4-none-t0-epic.png"
+  },
+  {
+    "key": "breaker-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Breaker Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-breaker-4-none-t0-legendary.png"
+  },
+  {
+    "key": "samurai-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Samurai Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-samurai-1-none-t0-normal.png"
+  },
+  {
+    "key": "samurai-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Samurai Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-samurai-1-none-t0-rare.png"
+  },
+  {
+    "key": "samurai-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Samurai Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-samurai-1-none-t0-epic.png"
+  },
+  {
+    "key": "samurai-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Samurai Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-samurai-1-none-t0-legendary.png"
+  },
+  {
+    "key": "samurai-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Samurai Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-samurai-2-none-t0-normal.png"
+  },
+  {
+    "key": "samurai-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Samurai Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-samurai-2-none-t0-rare.png"
+  },
+  {
+    "key": "samurai-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Samurai Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-samurai-2-none-t0-epic.png"
+  },
+  {
+    "key": "samurai-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Samurai Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-samurai-2-none-t0-legendary.png"
+  },
+  {
+    "key": "samurai-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Samurai Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-samurai-3-none-t0-normal.png"
+  },
+  {
+    "key": "samurai-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Samurai Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-samurai-3-none-t0-rare.png"
+  },
+  {
+    "key": "samurai-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Samurai Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-samurai-3-none-t0-epic.png"
+  },
+  {
+    "key": "samurai-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Samurai Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-samurai-3-none-t0-legendary.png"
+  },
+  {
+    "key": "samurai-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Samurai Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-samurai-4-none-t0-normal.png"
+  },
+  {
+    "key": "samurai-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Samurai Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-samurai-4-none-t0-rare.png"
+  },
+  {
+    "key": "samurai-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Samurai Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-samurai-4-none-t0-epic.png"
+  },
+  {
+    "key": "samurai-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Samurai Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-samurai-4-none-t0-legendary.png"
+  },
+  {
+    "key": "priest-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Priest Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-priest-1-none-t0-normal.png"
+  },
+  {
+    "key": "priest-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Priest Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-priest-1-none-t0-rare.png"
+  },
+  {
+    "key": "priest-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Priest Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-priest-1-none-t0-epic.png"
+  },
+  {
+    "key": "priest-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Priest Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-priest-1-none-t0-legendary.png"
+  },
+  {
+    "key": "priest-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Priest Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-priest-2-none-t0-normal.png"
+  },
+  {
+    "key": "priest-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Priest Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-priest-2-none-t0-rare.png"
+  },
+  {
+    "key": "priest-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Priest Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-priest-2-none-t0-epic.png"
+  },
+  {
+    "key": "priest-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Priest Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-priest-2-none-t0-legendary.png"
+  },
+  {
+    "key": "priest-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Priest Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-priest-3-none-t0-normal.png"
+  },
+  {
+    "key": "priest-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Priest Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-priest-3-none-t0-rare.png"
+  },
+  {
+    "key": "priest-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Priest Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-priest-3-none-t0-epic.png"
+  },
+  {
+    "key": "priest-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Priest Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-priest-3-none-t0-legendary.png"
+  },
+  {
+    "key": "priest-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Priest Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-priest-4-none-t0-normal.png"
+  },
+  {
+    "key": "priest-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Priest Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-priest-4-none-t0-rare.png"
+  },
+  {
+    "key": "priest-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Priest Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-priest-4-none-t0-epic.png"
+  },
+  {
+    "key": "priest-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Priest Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-priest-4-none-t0-legendary.png"
+  },
+  {
+    "key": "ninja-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Ninja Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-ninja-1-none-t0-normal.png"
+  },
+  {
+    "key": "ninja-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Ninja Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-ninja-1-none-t0-rare.png"
+  },
+  {
+    "key": "ninja-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Ninja Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-ninja-1-none-t0-epic.png"
+  },
+  {
+    "key": "ninja-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Ninja Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-ninja-1-none-t0-legendary.png"
+  },
+  {
+    "key": "ninja-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Ninja Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-ninja-2-none-t0-normal.png"
+  },
+  {
+    "key": "ninja-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Ninja Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-ninja-2-none-t0-rare.png"
+  },
+  {
+    "key": "ninja-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Ninja Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-ninja-2-none-t0-epic.png"
+  },
+  {
+    "key": "ninja-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Ninja Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-ninja-2-none-t0-legendary.png"
+  },
+  {
+    "key": "ninja-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Ninja Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-ninja-3-none-t0-normal.png"
+  },
+  {
+    "key": "ninja-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Ninja Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-ninja-3-none-t0-rare.png"
+  },
+  {
+    "key": "ninja-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Ninja Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-ninja-3-none-t0-epic.png"
+  },
+  {
+    "key": "ninja-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Ninja Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-ninja-3-none-t0-legendary.png"
+  },
+  {
+    "key": "ninja-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Ninja Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-ninja-4-none-t0-normal.png"
+  },
+  {
+    "key": "ninja-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Ninja Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-ninja-4-none-t0-rare.png"
+  },
+  {
+    "key": "ninja-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Ninja Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-ninja-4-none-t0-epic.png"
+  },
+  {
+    "key": "ninja-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Ninja Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-ninja-4-none-t0-legendary.png"
+  },
+  {
+    "key": "gunner-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Gunner Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-gunner-1-none-t0-normal.png"
+  },
+  {
+    "key": "gunner-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Gunner Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-gunner-1-none-t0-rare.png"
+  },
+  {
+    "key": "gunner-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Gunner Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-gunner-1-none-t0-epic.png"
+  },
+  {
+    "key": "gunner-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Gunner Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-gunner-1-none-t0-legendary.png"
+  },
+  {
+    "key": "gunner-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Gunner Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-gunner-2-none-t0-normal.png"
+  },
+  {
+    "key": "gunner-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Gunner Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-gunner-2-none-t0-rare.png"
+  },
+  {
+    "key": "gunner-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Gunner Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-gunner-2-none-t0-epic.png"
+  },
+  {
+    "key": "gunner-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Gunner Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-gunner-2-none-t0-legendary.png"
+  },
+  {
+    "key": "gunner-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Gunner Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-gunner-3-none-t0-normal.png"
+  },
+  {
+    "key": "gunner-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Gunner Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-gunner-3-none-t0-rare.png"
+  },
+  {
+    "key": "gunner-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Gunner Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-gunner-3-none-t0-epic.png"
+  },
+  {
+    "key": "gunner-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Gunner Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-gunner-3-none-t0-legendary.png"
+  },
+  {
+    "key": "gunner-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Gunner Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-gunner-4-none-t0-normal.png"
+  },
+  {
+    "key": "gunner-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Gunner Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-gunner-4-none-t0-rare.png"
+  },
+  {
+    "key": "gunner-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Gunner Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-gunner-4-none-t0-epic.png"
+  },
+  {
+    "key": "gunner-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Gunner Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-gunner-4-none-t0-legendary.png"
+  },
+  {
+    "key": "summoner-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Summoner Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-summoner-1-none-t0-normal.png"
+  },
+  {
+    "key": "summoner-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Summoner Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-summoner-1-none-t0-rare.png"
+  },
+  {
+    "key": "summoner-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Summoner Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-summoner-1-none-t0-epic.png"
+  },
+  {
+    "key": "summoner-1",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Summoner Skill Book I",
+    "className": null,
+    "description": "A blue skill book. Consume it to add a star to this class's skill 1, rolled when you read it.",
+    "file": "skillbook-summoner-1-none-t0-legendary.png"
+  },
+  {
+    "key": "summoner-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Summoner Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-summoner-2-none-t0-normal.png"
+  },
+  {
+    "key": "summoner-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Summoner Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-summoner-2-none-t0-rare.png"
+  },
+  {
+    "key": "summoner-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Summoner Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-summoner-2-none-t0-epic.png"
+  },
+  {
+    "key": "summoner-2",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Summoner Skill Book II",
+    "className": null,
+    "description": "A yellow skill book. Consume it to add a star to this class's skill 2, rolled when you read it.",
+    "file": "skillbook-summoner-2-none-t0-legendary.png"
+  },
+  {
+    "key": "summoner-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Summoner Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-summoner-3-none-t0-normal.png"
+  },
+  {
+    "key": "summoner-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Summoner Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-summoner-3-none-t0-rare.png"
+  },
+  {
+    "key": "summoner-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Summoner Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-summoner-3-none-t0-epic.png"
+  },
+  {
+    "key": "summoner-3",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Summoner Skill Book III",
+    "className": null,
+    "description": "A purple skill book. Consume it to add a star to this class's skill 3, rolled when you read it.",
+    "file": "skillbook-summoner-3-none-t0-legendary.png"
+  },
+  {
+    "key": "summoner-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "normal",
+    "name": "Summoner Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-summoner-4-none-t0-normal.png"
+  },
+  {
+    "key": "summoner-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "rare",
+    "name": "Summoner Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-summoner-4-none-t0-rare.png"
+  },
+  {
+    "key": "summoner-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "epic",
+    "name": "Summoner Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-summoner-4-none-t0-epic.png"
+  },
+  {
+    "key": "summoner-4",
+    "slot": "skillbook",
+    "ilvl": 1,
+    "rarity": "legendary",
+    "name": "Summoner Skill Book IV",
+    "className": null,
+    "description": "A orange skill book. Consume it to add a star to this class's skill 4, rolled when you read it.",
+    "file": "skillbook-summoner-4-none-t0-legendary.png"
   }
 ]

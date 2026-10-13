@@ -24,7 +24,7 @@ export const forgetRules = () => { cache = null; };
 const SLOT_LABEL = {
   weapon: 'Weapons', sub: 'Sub-weapons', helmet: 'Helmets', armor: 'Armour', gloves: 'Gloves',
   pants: 'Trousers', boots: 'Boots', back: 'Back items', blessing: 'Blessings', ring: 'Rings',
-  amulet: 'Amulets', bracer: 'Bracers', consumable: 'Consumables',
+  amulet: 'Amulets', bracer: 'Bracers', consumable: 'Consumables', skillbook: 'Skill Books',
 };
 const SLOT_ORDER = Object.keys(SLOT_LABEL);
 export const slotLabel = (s) => SLOT_LABEL[s] || s;
@@ -42,7 +42,7 @@ export function slotsOf(items, { back = true } = {}) {
 /// blessing has no level, so neither gets "Lv".
 export function itemLabel(it) {
   if (it.slot === 'consumable') return it.name;
-  if (it.slot === 'blessing') return `${it.name} (${it.rarity})`;
+  if (it.slot === 'blessing' || it.slot === 'skillbook') return `${it.name} (${it.rarity})`;
   return `${it.name}${it.className ? ' — ' + it.className : ''} (Lv ${it.ilvl} ${it.rarity})`;
 }
 
@@ -179,7 +179,7 @@ export function itemStamp(R) {
 
   function sync(kind, row) {
     const isBack = kind === 'back';
-    const plain = row && (row.slot === 'consumable' || row.slot === 'blessing');
+    const plain = row && (row.slot === 'consumable' || row.slot === 'blessing' || row.slot === 'skillbook');
     el.hidden = kind === 'pet';
     fR.hidden = isBack;
     fB.hidden = !isBack;
@@ -230,7 +230,7 @@ export function choicePicker(R) {
   function stamp(it) {
     const back = it.slot === 'back';
     // Consumables and blessings exist only as catalogued: no rarity, forge or set.
-    if (it.slot === 'consumable' || it.slot === 'blessing') return { key: it.key, rarity: 'normal', plus: 0, set: '' };
+    if (it.slot === 'consumable' || it.slot === 'blessing' || it.slot === 'skillbook') return { key: it.key, rarity: 'normal', plus: 0, set: '' };
     return { key: it.key, rarity: back ? 'normal' : stR.value || 'normal', plus: intOf(stP),
              set: !back && stS.value && meta.setSlots.includes(it.slot) ? stS.value : '' };
   }

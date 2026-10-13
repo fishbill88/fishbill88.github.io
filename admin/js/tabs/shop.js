@@ -28,7 +28,7 @@ export async function render(root, ctx) {
   const picker = itemPicker(R, {
     back: false, pets: true,
     onChange(kind, row) {
-      const stack = kind === 'pet' || (row && row.slot === 'consumable');
+      const stack = kind === 'pet' || (row && (row.slot === 'consumable' || row.slot === 'skillbook'));
       qty.disabled = !stack;
       if (!stack) qty.value = 1;
       else if (kind === 'pet' && intOf(qty) === 1) qty.value = 100;
@@ -73,7 +73,7 @@ function row(l, R, ctx) {
     td(icon(l.icon, 36)),
     td([
       h('div', { class: 'strong' }, name, l.rarity && l.kind !== 'shards' ? h('span', { class: 'muted small' }, ` · ${l.rarity}`) : null,
-        l.ilvl && !['consumable', 'blessing'].includes(l.slot) && l.kind !== 'shards' ? h('span', { class: 'muted small' }, ` · Lv ${l.ilvl}`) : null),
+        l.ilvl && !['consumable', 'blessing', 'skillbook'].includes(l.slot) && l.kind !== 'shards' ? h('span', { class: 'muted small' }, ` · Lv ${l.ilvl}`) : null),
       l.description ? h('div', { class: 'muted small clamp2', title: l.description }, l.description) : null,
       !l.active ? badge('delisted') : null,
       dead ? h('div', { class: 'badt small' }, badge('catalogue row retired', 'bad'), ' This item was retired from the catalogue, so it cannot be bought. Delete the listing.') : null,

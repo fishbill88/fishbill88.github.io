@@ -20,7 +20,7 @@ function sendCard(R, players) {
   const stamp = itemStamp(R);
   const qty = num({ min: 1, max: 99, value: 1, class: 'w5' });
   const lot = num({ min: 1, value: 100, class: 'w6' });
-  const fQty = field('Qty', qty, { hint: 'How many of that item the letter delivers. Consumables only — gear is always 1.' });
+  const fQty = field('Qty', qty, { hint: 'How many of that item the letter delivers. Consumables and skill books — gear is always 1.' });
   const fLot = field('Shards', lot);
   const picker = itemPicker(R, {
     back: true, pets: true,
@@ -28,7 +28,7 @@ function sendCard(R, players) {
       stamp.sync(kind, row);
       fLot.hidden = kind !== 'pet';
       fQty.hidden = kind === 'pet' || kind === '';
-      qty.disabled = !(row && row.slot === 'consumable');
+      qty.disabled = !(row && (row.slot === 'consumable' || row.slot === 'skillbook'));
       if (qty.disabled) qty.value = 1;
     },
   });
@@ -148,13 +148,13 @@ function autoForm(R, ctx) {
   const body = input({ maxLength: 512, class: 'grow' });
   const stamp = itemStamp(R);
   const qty = num({ min: 1, max: 99, value: 1, class: 'w5' });
-  const fQty = field('Qty', qty, { hint: 'Consumables only — gear is always 1' });
+  const fQty = field('Qty', qty, { hint: 'Consumables and skill books — gear is always 1' });
   const picker = itemPicker(R, {
     back: true, pets: false,
     onChange(kind, row) {
       stamp.sync(kind, row);
       fQty.hidden = !kind;
-      qty.disabled = !(row && row.slot === 'consumable');
+      qty.disabled = !(row && (row.slot === 'consumable' || row.slot === 'skillbook'));
       if (qty.disabled) qty.value = 1;
     },
   });

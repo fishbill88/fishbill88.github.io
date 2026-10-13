@@ -7936,7 +7936,8 @@
         ]
       ],
       "back": [],
-      "blessing": []
+      "blessing": [],
+      "skillbook": []
     },
     "setBaseStats": {
       "war": {
@@ -9121,6 +9122,7 @@
       "boots": "Boots",
       "back": "Back",
       "blessing": "Blessings",
+      "skillbook": "Skill Books",
       "ring": "Ring",
       "ring1": "Ring 1",
       "ring2": "Ring 2",
@@ -9141,7 +9143,8 @@
       "amulet",
       "bracer",
       "back",
-      "blessing"
+      "blessing",
+      "skillbook"
     ],
     "setSlots": [
       "helmet",
