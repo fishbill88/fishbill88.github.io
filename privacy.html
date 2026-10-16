@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy policy — TaskTopFight</title>
-<meta name="description" content="TaskTopFight collects nothing. This page explains what the game reads on your machine, why, and where it stays.">
+<meta name="description" content="What TaskTopFight stores about you, why, how long it is kept, and how to have it deleted.">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -26,84 +26,154 @@
 
   <h1>Privacy policy</h1>
   <p class="lede">
-    TaskTopFight does not collect, transmit or store any personal data. There are
-    no accounts, no analytics, no advertising and no telemetry. Nothing the game
-    reads on your machine ever leaves it.
+    TaskTopFight has player accounts. Your account, your save and the online
+    features (friends, mail, the player stall, leaderboards and co-op rooms) run
+    on a server we operate. This page lists what that server stores, why, how
+    long it is kept and how to have it deleted. There are no ads, no
+    third-party analytics, and nothing is sold or shared for marketing.
   </p>
-  <p>Last updated 4 September 2026.</p>
+  <p>Last updated 16 October 2026.</p>
 
-  <h2>What the game reads, and why</h2>
+  <h2>Who is responsible</h2>
+  <p>
+    TaskTopFight is made by fishbill88, who controls the data described here.
+    Contact: <a href="mailto:tasktopfight@gmail.com">tasktopfight@gmail.com</a>.
+  </p>
+
+  <h2>What the game reads on your PC, and keeps there</h2>
   <p>
     The fight escalates the longer you leave the keyboard alone, so the game has
-    to know whether you are at the desk. To do that it reads two things locally:
+    to know whether you are at the desk. It reads two things locally:
   </p>
   <ul>
     <li><strong>Whether input is happening.</strong> The game watches for mouse and
-    keyboard activity in order to measure how many seconds have passed since the
-    last one. It records <em>that</em> input occurred, never <em>what</em> was
-    typed or clicked. It is not a keylogger and it captures no keystroke content
-    of any kind.</li>
+    keyboard activity to measure how many seconds have passed since the last one.
+    It records <em>that</em> input occurred, never <em>what</em> was typed or
+    clicked. It is not a keylogger and it captures no keystroke content of any
+    kind.</li>
     <li><strong>Whether sound is playing, and whether an app is full-screen.</strong>
     This is how a film holds the idle clock instead of resetting it. The game reads
-    audio peak levels and the system's full-screen notification state. It does not
-    read what is playing, which application is playing it, or any audio content.</li>
+    audio peak levels and the system's full-screen state. It does not read what is
+    playing, which application is playing it, or any audio content.</li>
   </ul>
   <p>
-    Both checks run entirely on your computer, produce nothing but a number of
-    seconds, and are never sent anywhere. You can turn the audio check off under
+    Both checks run on your computer and produce nothing but a number of seconds.
+    That number is never sent to us. You can turn the audio check off under
     <em>Idle while watching</em> in the <code>&#9881;</code> panel.
   </p>
 
-  <h2>Your save file</h2>
+  <h2>What our server stores</h2>
+  <ul>
+    <li><strong>Your account.</strong> Username, email address, character name, and
+    a salted hash of your password (never the password itself). If you sign in
+    with Steam, we receive your Steam ID from Valve to recognise you; we never see
+    your Steam password or payment details.</li>
+    <li><strong>Your save.</strong> Your hero's progress (level, gear, skills,
+    settings, trophies and statistics), plus the last 30 earlier versions so a bad
+    sync can be undone. Each save is stored with your <strong>computer's name</strong>
+    and a <strong>network adapter (MAC) address</strong>, which tell your PCs apart
+    when you play on more than one, so the game can ask which save to keep.</li>
+    <li><strong>Sign-in sessions.</strong> A hashed sign-in token per device, with
+    when it was created and last used. Sessions expire after 90 days.</li>
+    <li><strong>Online features.</strong> Your friends list and friend requests;
+    your online status (when you were last seen and which game mode or room you are
+    in), shared with your friends; letters in your mailbox; items you list, buy or
+    sell on the player stall; and your scores on the leaderboards.</li>
+    <li><strong>Crash reports.</strong> When the game hits an error, it sends the
+    error message and where in the code it happened, with your account, your
+    computer's name and a MAC address. We keep the newest reports only.</li>
+    <li><strong>IP addresses.</strong> Our server sees the address you connect from.
+    It is used to limit sign-up and sign-in abuse (for example, too many failed
+    passwords from one address). Sign-up counts per address are deleted after
+    about two days.</li>
+  </ul>
+
+  <h2>What other players can see</h2>
   <p>
-    Your progress — hero, level, gear, skill tree and settings — is written to a
-    file in the game's own data folder on your PC. If you have Steam Cloud enabled,
-    Steam copies that file to your Steam account so the same hero appears on
-    another PC. That transfer is performed by Steam under
+    Your character name, class, level and scores appear on leaderboards, in co-op
+    rooms, on nameplates and on the player stall. Your friends can also see when
+    you are online and which mode you are playing. Your username, email address,
+    computer name and MAC address are never shown to other players.
+  </p>
+
+  <h2>Why we use it</h2>
+  <ul>
+    <li>To run the game you asked for: keep your save, sign you in, and provide
+    friends, mail, trading, leaderboards and co-op.</li>
+    <li>To keep the game working and fair: fix crashes, stop abuse, and keep
+    cheated scores off the boards.</li>
+    <li>To send password-reset emails, and only those. We do not send marketing
+    email.</li>
+  </ul>
+
+  <h2>Who else handles it</h2>
+  <ul>
+    <li><strong>Our hosting provider</strong> runs the machine the server is on.
+    It stores the data on our behalf and does not use it for itself.</li>
+    <li><strong>An email delivery service</strong> sends password-reset emails, so
+    it receives your email address and the reset message.</li>
+    <li><strong>Valve</strong>, if you play through Steam: it handles your purchase,
+    your Steam account and game updates under
     <a href="https://store.steampowered.com/privacy_agreement/">Valve's privacy
-    policy</a>; the save holds game progress only, and we never receive a copy.
-  </p>
+    policy</a>, and confirms your Steam ID to us when you sign in.</li>
+    <li><strong>GitHub</strong>, if you play the version downloaded from our
+    website: the game checks GitHub for updates and downloads them from there,
+    under GitHub's own privacy policy.</li>
+  </ul>
   <p>
-    <code>Ctrl</code>+<code>Alt</code>+<code>R</code> deletes the save, including
-    the on-disk copy.
-  </p>
-
-  <h2>What we receive</h2>
-  <p>
-    Nothing automatic. The only information we ever hold is what you choose to put
-    in an email to us, and we keep that only as long as it takes to answer you.
-  </p>
-  <p>
-    Because you buy the game through Steam, Valve — not us — handles your purchase,
-    payment details and account. We never see them. Valve provides developers with
-    aggregate, anonymous sales and wishlist statistics that cannot identify an
-    individual player.
+    We do not sell your data, and we do not share it with anyone else unless the
+    law requires it.
   </p>
 
-  <h2>Updates</h2>
+  <h2>How long it is kept</h2>
   <p>
-    Game updates are delivered by Steam. The game does not contact any server of
-    ours to check for them, and it has no update mechanism of its own.
+    Your account, save and online data are kept for as long as your account
+    exists. Sign-in sessions expire after 90 days, older save versions roll off
+    after 30, crash reports are trimmed to the newest ones, and sign-up counts per
+    IP address go after about two days. When you ask us to delete your account,
+    everything listed above goes with it.
+  </p>
+
+  <h2>Your save on your PC</h2>
+  <p>
+    The game also keeps a copy of your save in its own data folder on your PC, so
+    you can carry on when the server cannot be reached.
+    <code>Ctrl</code>+<code>Alt</code>+<code>R</code> wipes that local copy and
+    starts a fresh world.
   </p>
 
   <h2>Children</h2>
   <p>
-    The game collects no personal information from anyone, of any age.
+    TaskTopFight is not directed at children under 13, and we do not knowingly
+    hold accounts for them. If you believe a child under 13 has an account, write
+    to us and we will delete it.
   </p>
 
   <h2>Your rights</h2>
   <p>
-    Data protection law gives you the right to see, correct or delete personal data
-    held about you. In our case there is none to show, correct or delete — but if
-    you have emailed us and want that correspondence erased, write to
-    <a href="mailto:tasktopfight@gmail.com">tasktopfight@gmail.com</a> and it will be.
+    You can ask to see the data we hold about you, to have it corrected, to
+    receive a copy of it, or to have your account and everything attached to it
+    deleted. Write to
+    <a href="mailto:tasktopfight@gmail.com">tasktopfight@gmail.com</a> from the
+    email address on your account, or tell us your character name if you sign in
+    with Steam. We answer within 30 days. You can also complain to your local data
+    protection authority; in the Philippines that is the National Privacy
+    Commission.
+  </p>
+
+  <h2>Security</h2>
+  <p>
+    Connections to our account server are encrypted (HTTPS). Co-op room traffic
+    carries game state and character names only. Passwords and sign-in tokens are
+    stored only as hashes. Repeated failed sign-ins lock the account for a short
+    time.
   </p>
 
   <h2>Changes to this policy</h2>
   <p>
-    If a future version of the game ever collects anything, this page will be
-    updated before that version ships, and the change will be called out in the
-    update notes on Steam. The date at the top always reflects the current text.
+    If the game starts storing something new, this page will be updated before
+    that version ships, and the change will be called out in the update notes.
+    The date at the top always reflects the current text.
   </p>
 
   <h2>Contact</h2>
