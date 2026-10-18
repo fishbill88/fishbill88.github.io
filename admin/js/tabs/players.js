@@ -7,6 +7,7 @@ import { rules, rarityColor } from '../catalog.js';
 
 let filterText = '';
 let sortBy = 'created';
+let betaFilter = '';
 
 const SORTS = {
   created: [(a, b) => (b.createdUtc || '').localeCompare(a.createdUtc || ''), 'Newest account'],
@@ -19,25 +20,31 @@ const SORTS = {
 export async function render(root, ctx) {
   const [o, { players }] = await Promise.all([get('/overview'), get('/players')]);
 
-  const search = h('input', { type: 'search', placeholder: 'Filter by username, name, email or machine', value: filterText, class: 'grow' });
+  const search = h('input', { type: 'search', placeholder: 'Search by name, username, email or machine', 'aria-label': 'Search players', value: filterText, class: 'grow' });
+  const betaOnly = select([['', 'Beta: everyone'], ['requested', 'Beta: requests'], ['tester', 'Beta: testers']]);
+  betaOnly.value = betaFilter;
   const sort = select(Object.entries(SORTS).map(([k, v]) => [k, 'Sort: ' + v[1]]));
   sort.value = sortBy;
   const count = h('span', { class: 'muted small' });
   const body = h('div');
 
   function paint() {
-    filterText = search.value; sortBy = sort.value;
+    filterText = search.value; sortBy = sort.value; betaFilter = betaOnly.value;
     const needle = filterText.trim().toLowerCase();
-    const rows = players.filter((p) => !needle || [p.username, p.displayName, p.email, p.save && p.save.machine]
-      .some((v) => v && String(v).toLowerCase().includes(needle)));
+    const rows = players.filter((p) => (!needle || [p.username, p.displayName, p.email, p.save && p.save.machine]
+      .some((v) => v && String(v).toLowerCase().includes(needle)))
+      && (betaFilter !== 'requested' || p.betaRequestedUtc)
+      && (betaFilter !== 'tester' || p.beta));
     rows.sort(SORTS[sortBy][0]);
     count.textContent = `${rows.length} of ${players.length} row${players.length === 1 ? '' : 's'}`;
     clear(body).append(rows.length
-      ? table(['Player', '>Lv', '>Stage', 'Class', '>Played', '>Gold', 'Last save', '>Mail', ''], rows.map((p) => playerRow(p, ctx)))
+      ? table(['Player', '>Lv', '>Stage', 'Class', '>Played', '>Gold', 'Last save', '>Mail', '>Beta', ''], rows.map((p) => playerRow(p, ctx)))
       : h('p', { class: 'muted' }, players.length ? 'Nobody matches.' : 'No accounts yet. The first player to register will appear here.'));
   }
   search.addEventListener('input', paint);
   sort.addEventListener('change', paint);
+  betaOnly.addEventListener('change', paint);
+  const requests = players.filter((p) => p.betaRequestedUtc).length;
 
   root.append(
     tiles([
@@ -53,7 +60,9 @@ export async function render(root, ctx) {
         o.locked ? badge(`${o.locked} locked out`, 'warn') : null, ' ',
         o.disabled ? badge(`${o.disabled} disabled`) : null,
         ' A lockout clears itself after 15 minutes; Unlock is for when someone does not want to wait.') : null,
-      h('div', { class: 'row' }, search, sort),
+      requests ? note(badge(`${requests} beta request${requests === 1 ? '' : 's'}`, 'info'),
+        ' waiting in the Beta column. Approve or Deny mails the player the answer.') : null,
+      h('div', { class: 'row' }, search, betaOnly, sort),
       body));
   paint();
 }
@@ -83,6 +92,7 @@ function playerRow(p, ctx) {
             h('span', { class: 'muted small', title: `${n(s.bytes)} bytes · ${s.machine || 'unknown machine'} · build ${s.simHash || 'dev'}` }, ` ${(s.bytes / 1024).toFixed(1)}KB`)]
           : h('span', { class: 'muted' }, 'no save'), 'nowrap'),
     td(p.openMail ? n(p.openMail) : h('span', { class: 'muted' }, '0'), 'num'),
+    h('td', { class: 'acts nowrap' }, betaCell(p, ctx)),
     h('td', { class: 'acts' },
       p.lockedUntilUtc ? act('Unlock', async () => { await post('/player/unlock', { id }); flash(`${p.username} unlocked.`); ctx.refresh(); }, 'warn xs') : null,
       act(p.tuner ? 'Hide tuner' : 'Show tuner', async () => {
@@ -98,6 +108,32 @@ function playerRow(p, ctx) {
       btn('Logs', () => openLogs(p), 'xs', { disabled: !s, title: s ? 'The last 200 events in this player’s game' : 'No save yet, so no log' }),
       btn('Saves', () => openHistory(p, ctx), 'xs', { title: 'Save history and restore' }),
       btn('Account', () => openAccount(p, ctx), 'xs', { title: 'Rename, reset password, sign out, delete' })));
+}
+
+// ── beta ────────────────────────────────────────────────────────────────────
+// Beta testing is granted here, per account; the game's ⚙ panel can only ask.
+// Every action mails the player (the server writes the letter), and the
+// player's updater follows the account on their next launch or ⚙ open.
+function betaCell(p, ctx) {
+  const id = p.id;
+  const go = (action, done) => async () => {
+    await post('/player/beta', { id, action });
+    flash(`${p.username}: ${done} — letter sent.`);
+    ctx.refresh();
+  };
+  if (p.beta) {
+    return [badge('tester', 'info', 'On the beta release feed'), ' ',
+      act('Revoke', async (b) => {
+        if (!confirm(`Revoke ${p.username}'s beta access? They go back to stable builds and get a letter saying so.`)) return;
+        await go('revoke', 'beta revoked')(b);
+      }, 'warn xs')];
+  }
+  if (p.betaRequestedUtc) {
+    return [badge('requested', 'warn', `Asked ${when(p.betaRequestedUtc)}`), ' ',
+      act('Approve', go('approve', 'beta request approved'), 'on xs'),
+      act('Deny', go('deny', 'beta request denied'), 'xs')];
+  }
+  return act('Grant', go('grant', 'beta granted'), 'xs', { title: 'Make this player a beta tester and mail them' });
 }
 
 // ── logs ────────────────────────────────────────────────────────────────────
